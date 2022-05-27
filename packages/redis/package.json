@@ -1,0 +1,29 @@
+{
+  "name": "pkg-redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "compile": "tsc --build"
+  },
+  "types": "dist/index.d.ts",
+  "author": "",
+  "license": "ISC",
+  "exports": {
+    "./*": "./dist/*.js",
+    ".": "./dist/index.js",
+    "./index": "./dist/index.js"
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "dist/*"
+      ]
+    }
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2"
+  }
+}

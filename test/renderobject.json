@@ -1,0 +1,4619 @@
+{
+  "createdBy": {
+    "id": "294",
+    "name": "Daniel Rönnkvist",
+    "login": "danielronnkvist",
+    "email": "daniel.ronnkvist@storykit.io"
+  },
+  "modelLock": { "isLocked": false },
+  "fixedSlides": false,
+  "renderInProgress": false,
+  "aspectRatio": "square",
+  "note": "",
+  "insertability": "none",
+  "activities": [],
+  "associatedWorkspaces": [],
+  "associatedModules": [],
+  "isVoiceover": false,
+  "_id": "5fca36f91318780004db7d84",
+  "job": "5dbad37f79a2520004fd7a85",
+  "name": "grouped",
+  "history": "5fca36f91318780004db7d85",
+  "metaData": "5fca36f91318780004db7d87",
+  "created": "2020-12-04T13:17:45.465Z",
+  "updated": "2020-12-04T13:18:23.692Z",
+  "__v": 0,
+  "theme": {
+    "createdBy": {
+      "id": "7",
+      "name": "Fredrik Strömberg",
+      "login": "fredrikstr",
+      "email": "fredrik.stromberg@kit.se"
+    },
+    "colors": {
+      "accent": [1, 1, 1, 1],
+      "black": [0, 0, 0, 1],
+      "darken": [0, 0, 0, 1],
+      "gradientFade": [0, 0, 0, 1],
+      "primary": [0.5, 0.5, 0.5, 1],
+      "textOnPrimary": [1, 1, 1, 1],
+      "themeColor1": [0.5, 0.5, 0.5, 1],
+      "themeColor2": [0.5, 0.5, 0.5, 1],
+      "themeColor3": [0.5, 0.5, 0.5, 1],
+      "themeColor4": [0.5, 0.5, 0.5, 1],
+      "white": [1, 1, 1, 1]
+    },
+    "fonts": {
+      "huge": {
+        "fontStyle": "normal",
+        "condensed": false,
+        "global": true,
+        "availableForClients": [],
+        "availableForAgencies": ["5ac4b1ffe3a5896e3c25aa79"],
+        "_id": "5ac760a91b00be3cf293ece7",
+        "postScriptName": "Arial-Black",
+        "fontName": "Arial Black",
+        "fontFamily": "Arial Black",
+        "fontWeight": 900,
+        "huge": {
+          "_id": "5fca372d1318780004db8008",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "large": {
+          "_id": "5fca372d1318780004db8009",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "largeAlternate": {
+          "_id": "5fca372d1318780004db800a",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "small": {
+          "_id": "5fca372d1318780004db800b",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "tiny": {
+          "_id": "5fca372d1318780004db800c",
+          "size": 30,
+          "leading": 30,
+          "tracking": 0
+        },
+        "hugeNumber": {
+          "_id": "5fca372d1318780004db800d",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "xlarge": {
+          "_id": "5fca372d1318780004db800e",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "medium": {
+          "_id": "5fca372d1318780004db800f",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "mediumAlternate": {
+          "_id": "5fca372d1318780004db8010",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "smallAlternate": {
+          "_id": "5fca372d1318780004db8011",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "xlargeAlternate": {
+          "_id": "5fca372d1318780004db8012",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "s3Value": {
+          "bucket": "storykit-fonts",
+          "key": "Arial-Black.ttf"
+        }
+      },
+      "large": {
+        "fontStyle": "normal",
+        "condensed": false,
+        "global": true,
+        "availableForClients": [],
+        "availableForAgencies": ["5ac4b1ffe3a5896e3c25aa79"],
+        "_id": "5ac760a91b00be3cf293ece7",
+        "postScriptName": "Arial-Black",
+        "fontName": "Arial Black",
+        "fontFamily": "Arial Black",
+        "fontWeight": 900,
+        "huge": {
+          "_id": "5fca372d1318780004db8034",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "large": {
+          "_id": "5fca372d1318780004db8035",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "largeAlternate": {
+          "_id": "5fca372d1318780004db8036",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "small": {
+          "_id": "5fca372d1318780004db8037",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "tiny": {
+          "_id": "5fca372d1318780004db8038",
+          "size": 30,
+          "leading": 30,
+          "tracking": 0
+        },
+        "hugeNumber": {
+          "_id": "5fca372d1318780004db8039",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "xlarge": {
+          "_id": "5fca372d1318780004db803a",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "medium": {
+          "_id": "5fca372d1318780004db803b",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "mediumAlternate": {
+          "_id": "5fca372d1318780004db803c",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "smallAlternate": {
+          "_id": "5fca372d1318780004db803d",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "xlargeAlternate": {
+          "_id": "5fca372d1318780004db803e",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "s3Value": {
+          "bucket": "storykit-fonts",
+          "key": "Arial-Black.ttf"
+        }
+      },
+      "largeAlternate": {
+        "fontStyle": "normal",
+        "condensed": false,
+        "global": true,
+        "availableForClients": [],
+        "availableForAgencies": ["5ac4b1ffe3a5896e3c25aa79"],
+        "_id": "5ac760a91b00be3cf293ece7",
+        "postScriptName": "Arial-Black",
+        "fontName": "Arial Black",
+        "fontFamily": "Arial Black",
+        "fontWeight": 900,
+        "huge": {
+          "_id": "5fca372d1318780004db803f",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "large": {
+          "_id": "5fca372d1318780004db8040",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "largeAlternate": {
+          "_id": "5fca372d1318780004db8041",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "small": {
+          "_id": "5fca372d1318780004db8042",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "tiny": {
+          "_id": "5fca372d1318780004db8043",
+          "size": 30,
+          "leading": 30,
+          "tracking": 0
+        },
+        "hugeNumber": {
+          "_id": "5fca372d1318780004db8044",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "xlarge": {
+          "_id": "5fca372d1318780004db8045",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "medium": {
+          "_id": "5fca372d1318780004db8046",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "mediumAlternate": {
+          "_id": "5fca372d1318780004db8047",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "smallAlternate": {
+          "_id": "5fca372d1318780004db8048",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "xlargeAlternate": {
+          "_id": "5fca372d1318780004db8049",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "s3Value": {
+          "bucket": "storykit-fonts",
+          "key": "Arial-Black.ttf"
+        }
+      },
+      "small": {
+        "fontStyle": "normal",
+        "condensed": false,
+        "global": true,
+        "availableForClients": [],
+        "availableForAgencies": ["5ac4b1ffe3a5896e3c25aa79"],
+        "_id": "5ac760a91b00be3cf293ece7",
+        "postScriptName": "Arial-Black",
+        "fontName": "Arial Black",
+        "fontFamily": "Arial Black",
+        "fontWeight": 900,
+        "huge": {
+          "_id": "5fca372d1318780004db8060",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "large": {
+          "_id": "5fca372d1318780004db8061",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "largeAlternate": {
+          "_id": "5fca372d1318780004db8062",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "small": {
+          "_id": "5fca372d1318780004db8063",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "tiny": {
+          "_id": "5fca372d1318780004db8064",
+          "size": 30,
+          "leading": 30,
+          "tracking": 0
+        },
+        "hugeNumber": {
+          "_id": "5fca372d1318780004db8065",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "xlarge": {
+          "_id": "5fca372d1318780004db8066",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "medium": {
+          "_id": "5fca372d1318780004db8067",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "mediumAlternate": {
+          "_id": "5fca372d1318780004db8068",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "smallAlternate": {
+          "_id": "5fca372d1318780004db8069",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "xlargeAlternate": {
+          "_id": "5fca372d1318780004db806a",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "s3Value": {
+          "bucket": "storykit-fonts",
+          "key": "Arial-Black.ttf"
+        }
+      },
+      "tiny": {
+        "fontStyle": "normal",
+        "condensed": false,
+        "global": true,
+        "availableForClients": [],
+        "availableForAgencies": ["5ac4b1ffe3a5896e3c25aa79"],
+        "_id": "5ac760a91b00be3cf293ece7",
+        "postScriptName": "Arial-Black",
+        "fontName": "Arial Black",
+        "fontFamily": "Arial Black",
+        "fontWeight": 900,
+        "huge": {
+          "_id": "5fca372d1318780004db8076",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "large": {
+          "_id": "5fca372d1318780004db8077",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "largeAlternate": {
+          "_id": "5fca372d1318780004db8078",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "small": {
+          "_id": "5fca372d1318780004db8079",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "tiny": {
+          "_id": "5fca372d1318780004db807a",
+          "size": 30,
+          "leading": 30,
+          "tracking": 0
+        },
+        "hugeNumber": {
+          "_id": "5fca372d1318780004db807b",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "xlarge": {
+          "_id": "5fca372d1318780004db807c",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "medium": {
+          "_id": "5fca372d1318780004db807d",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "mediumAlternate": {
+          "_id": "5fca372d1318780004db807e",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "smallAlternate": {
+          "_id": "5fca372d1318780004db807f",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "xlargeAlternate": {
+          "_id": "5fca372d1318780004db8080",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "s3Value": {
+          "bucket": "storykit-fonts",
+          "key": "Arial-Black.ttf"
+        }
+      },
+      "hugeNumber": {
+        "fontStyle": "normal",
+        "condensed": false,
+        "global": true,
+        "availableForClients": [],
+        "availableForAgencies": ["5ac4b1ffe3a5896e3c25aa79"],
+        "_id": "5ac760a91b00be3cf293ece7",
+        "postScriptName": "Arial-Black",
+        "fontName": "Arial Black",
+        "fontFamily": "Arial Black",
+        "fontWeight": 900,
+        "huge": {
+          "_id": "5fca372d1318780004db8013",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "large": {
+          "_id": "5fca372d1318780004db8014",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "largeAlternate": {
+          "_id": "5fca372d1318780004db8015",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "small": {
+          "_id": "5fca372d1318780004db8016",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "tiny": {
+          "_id": "5fca372d1318780004db8017",
+          "size": 30,
+          "leading": 30,
+          "tracking": 0
+        },
+        "hugeNumber": {
+          "_id": "5fca372d1318780004db8018",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "xlarge": {
+          "_id": "5fca372d1318780004db8019",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "medium": {
+          "_id": "5fca372d1318780004db801a",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "mediumAlternate": {
+          "_id": "5fca372d1318780004db801b",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "smallAlternate": {
+          "_id": "5fca372d1318780004db801c",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "xlargeAlternate": {
+          "_id": "5fca372d1318780004db801d",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "s3Value": {
+          "bucket": "storykit-fonts",
+          "key": "Arial-Black.ttf"
+        }
+      },
+      "xlarge": {
+        "fontStyle": "normal",
+        "condensed": false,
+        "global": true,
+        "availableForClients": [],
+        "availableForAgencies": ["5ac4b1ffe3a5896e3c25aa79"],
+        "_id": "5ac760a91b00be3cf293ece7",
+        "postScriptName": "Arial-Black",
+        "fontName": "Arial Black",
+        "fontFamily": "Arial Black",
+        "fontWeight": 900,
+        "huge": {
+          "_id": "5fca372d1318780004db801e",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "large": {
+          "_id": "5fca372d1318780004db801f",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "largeAlternate": {
+          "_id": "5fca372d1318780004db8020",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "small": {
+          "_id": "5fca372d1318780004db8021",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "tiny": {
+          "_id": "5fca372d1318780004db8022",
+          "size": 30,
+          "leading": 30,
+          "tracking": 0
+        },
+        "hugeNumber": {
+          "_id": "5fca372d1318780004db8023",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "xlarge": {
+          "_id": "5fca372d1318780004db8024",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "medium": {
+          "_id": "5fca372d1318780004db8025",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "mediumAlternate": {
+          "_id": "5fca372d1318780004db8026",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "smallAlternate": {
+          "_id": "5fca372d1318780004db8027",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "xlargeAlternate": {
+          "_id": "5fca372d1318780004db8028",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "s3Value": {
+          "bucket": "storykit-fonts",
+          "key": "Arial-Black.ttf"
+        }
+      },
+      "medium": {
+        "fontStyle": "normal",
+        "condensed": false,
+        "global": true,
+        "availableForClients": [],
+        "availableForAgencies": ["5ac4b1ffe3a5896e3c25aa79"],
+        "_id": "5ac760a91b00be3cf293ece7",
+        "postScriptName": "Arial-Black",
+        "fontName": "Arial Black",
+        "fontFamily": "Arial Black",
+        "fontWeight": 900,
+        "huge": {
+          "_id": "5fca372d1318780004db804a",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "large": {
+          "_id": "5fca372d1318780004db804b",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "largeAlternate": {
+          "_id": "5fca372d1318780004db804c",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "small": {
+          "_id": "5fca372d1318780004db804d",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "tiny": {
+          "_id": "5fca372d1318780004db804e",
+          "size": 30,
+          "leading": 30,
+          "tracking": 0
+        },
+        "hugeNumber": {
+          "_id": "5fca372d1318780004db804f",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "xlarge": {
+          "_id": "5fca372d1318780004db8050",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "medium": {
+          "_id": "5fca372d1318780004db8051",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "mediumAlternate": {
+          "_id": "5fca372d1318780004db8052",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "smallAlternate": {
+          "_id": "5fca372d1318780004db8053",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "xlargeAlternate": {
+          "_id": "5fca372d1318780004db8054",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "s3Value": {
+          "bucket": "storykit-fonts",
+          "key": "Arial-Black.ttf"
+        }
+      },
+      "mediumAlternate": {
+        "fontStyle": "normal",
+        "condensed": false,
+        "global": true,
+        "availableForClients": [],
+        "availableForAgencies": ["5ac4b1ffe3a5896e3c25aa79"],
+        "_id": "5ac760a91b00be3cf293ece7",
+        "postScriptName": "Arial-Black",
+        "fontName": "Arial Black",
+        "fontFamily": "Arial Black",
+        "fontWeight": 900,
+        "huge": {
+          "_id": "5fca372d1318780004db8055",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "large": {
+          "_id": "5fca372d1318780004db8056",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "largeAlternate": {
+          "_id": "5fca372d1318780004db8057",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "small": {
+          "_id": "5fca372d1318780004db8058",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "tiny": {
+          "_id": "5fca372d1318780004db8059",
+          "size": 30,
+          "leading": 30,
+          "tracking": 0
+        },
+        "hugeNumber": {
+          "_id": "5fca372d1318780004db805a",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "xlarge": {
+          "_id": "5fca372d1318780004db805b",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "medium": {
+          "_id": "5fca372d1318780004db805c",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "mediumAlternate": {
+          "_id": "5fca372d1318780004db805d",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "smallAlternate": {
+          "_id": "5fca372d1318780004db805e",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "xlargeAlternate": {
+          "_id": "5fca372d1318780004db805f",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "s3Value": {
+          "bucket": "storykit-fonts",
+          "key": "Arial-Black.ttf"
+        }
+      },
+      "smallAlternate": {
+        "fontStyle": "normal",
+        "condensed": false,
+        "global": true,
+        "availableForClients": [],
+        "availableForAgencies": ["5ac4b1ffe3a5896e3c25aa79"],
+        "_id": "5ac760a91b00be3cf293ece7",
+        "postScriptName": "Arial-Black",
+        "fontName": "Arial Black",
+        "fontFamily": "Arial Black",
+        "fontWeight": 900,
+        "huge": {
+          "_id": "5fca372d1318780004db806b",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "large": {
+          "_id": "5fca372d1318780004db806c",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "largeAlternate": {
+          "_id": "5fca372d1318780004db806d",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "small": {
+          "_id": "5fca372d1318780004db806e",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "tiny": {
+          "_id": "5fca372d1318780004db806f",
+          "size": 30,
+          "leading": 30,
+          "tracking": 0
+        },
+        "hugeNumber": {
+          "_id": "5fca372d1318780004db8070",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "xlarge": {
+          "_id": "5fca372d1318780004db8071",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "medium": {
+          "_id": "5fca372d1318780004db8072",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "mediumAlternate": {
+          "_id": "5fca372d1318780004db8073",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "smallAlternate": {
+          "_id": "5fca372d1318780004db8074",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "xlargeAlternate": {
+          "_id": "5fca372d1318780004db8075",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "s3Value": {
+          "bucket": "storykit-fonts",
+          "key": "Arial-Black.ttf"
+        }
+      },
+      "xlargeAlternate": {
+        "fontStyle": "normal",
+        "condensed": false,
+        "global": true,
+        "availableForClients": [],
+        "availableForAgencies": ["5ac4b1ffe3a5896e3c25aa79"],
+        "_id": "5ac760a91b00be3cf293ece7",
+        "postScriptName": "Arial-Black",
+        "fontName": "Arial Black",
+        "fontFamily": "Arial Black",
+        "fontWeight": 900,
+        "huge": {
+          "_id": "5fca372d1318780004db8029",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "large": {
+          "_id": "5fca372d1318780004db802a",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "largeAlternate": {
+          "_id": "5fca372d1318780004db802b",
+          "size": 73,
+          "leading": 73,
+          "tracking": -40
+        },
+        "small": {
+          "_id": "5fca372d1318780004db802c",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "tiny": {
+          "_id": "5fca372d1318780004db802d",
+          "size": 30,
+          "leading": 30,
+          "tracking": 0
+        },
+        "hugeNumber": {
+          "_id": "5fca372d1318780004db802e",
+          "size": 120,
+          "leading": 111,
+          "tracking": -40
+        },
+        "xlarge": {
+          "_id": "5fca372d1318780004db802f",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "medium": {
+          "_id": "5fca372d1318780004db8030",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "mediumAlternate": {
+          "_id": "5fca372d1318780004db8031",
+          "size": 56,
+          "leading": 56,
+          "tracking": -19
+        },
+        "smallAlternate": {
+          "_id": "5fca372d1318780004db8032",
+          "size": 38,
+          "leading": 38,
+          "tracking": -10
+        },
+        "xlargeAlternate": {
+          "_id": "5fca372d1318780004db8033",
+          "size": 95,
+          "leading": 88,
+          "tracking": -40
+        },
+        "s3Value": {
+          "bucket": "storykit-fonts",
+          "key": "Arial-Black.ttf"
+        }
+      }
+    },
+    "isAgencyTheme": false,
+    "availableForClients": ["5c063d627123054b8e861dff"],
+    "_id": "5c063d627123054b8e861dfc",
+    "name": "Story Engine Development theme",
+    "history": "5c063d627123054b8e861dfd",
+    "created": "2018-12-04T08:40:02.772Z",
+    "updated": "2020-03-27T11:51:35.485Z",
+    "__v": 2,
+    "definitionType": "5c10b1f9db183a1868fabfac",
+    "backgroundDefinition": "5cbf7d1a27b57857f1d06998",
+    "agency": "5ac4b1ffe3a5896e3c25aa79",
+    "logotype": null
+  },
+  "previewAsset": false,
+  "renderUser": {
+    "id": "294",
+    "name": "Daniel Rönnkvist",
+    "login": "danielronnkvist",
+    "email": "daniel.ronnkvist@storykit.io",
+    "role": "customer"
+  },
+  "slides": [
+    {
+      "createdBy": {
+        "id": "294",
+        "name": "Daniel Rönnkvist",
+        "login": "danielronnkvist",
+        "email": "daniel.ronnkvist@storykit.io"
+      },
+      "timings": { "durationOverride": 0 },
+      "note": "",
+      "background": "5fca36fb1318780004db7f05",
+      "_id": "5fca36fb1318780004db7f0b",
+      "definition": {
+        "previewElements": {
+          "square": [
+            {
+              "type": "asset",
+              "valueFrom": "background",
+              "asset": {
+                "align": {
+                  "horizontalFrom": "backXpos",
+                  "verticalFrom": "backYpos"
+                }
+              },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1080, "height": 1080 },
+                "zIndex": 0,
+                "rotate": 0,
+                "filter": [
+                  {
+                    "cubeFilterFrom": "filterType",
+                    "visibilityFrom": "filterParent",
+                    "opacityFrom": "filterOpacity"
+                  },
+                  {
+                    "canvasFilter": "grayscale(100%)",
+                    "visibilityFrom": "monochromeParent"
+                  },
+                  {
+                    "canvasFilter": "blur(10px)",
+                    "visibilityFrom": "blurParent"
+                  },
+                  {
+                    "visibilityFrom": "duotoneParent",
+                    "opacityFrom": "duotoneOpacity",
+                    "duotoneFilter": {
+                      "highlightFrom": "duotoneHighlightsColor",
+                      "shadowFrom": "duotoneShadowsColor",
+                      "intensityFrom": "duotoneIntensity"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Canvas color",
+              "background": { "colorFrom": "canvasColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1920, "height": 1920 },
+                "zIndex": -1
+              }
+            },
+            {
+              "title": "Background tint",
+              "background": { "colorFrom": "tintColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1920, "height": 1920 },
+                "visibilityFrom": "tintParent && !advancedTintParent",
+                "opacityFrom": "tintOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Left",
+              "background": { "colorFrom": "advancedTintInColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 120, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintInDuration",
+                "opacityFrom": "advancedTintInOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle Solo",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1920, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && !advancedTintInDuration && !advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle & Left",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 120, "y": 0 },
+                "dimensions": { "width": 960, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintInDuration && !advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle & Both",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 120, "y": 0 },
+                "dimensions": { "width": 840, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintInDuration && advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle & Right",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 960, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && !advancedTintInDuration && advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Right",
+              "background": { "colorFrom": "advancedTintOutColor" },
+              "transform": {
+                "translate": { "x": 960, "y": 0 },
+                "dimensions": { "width": 120, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintOutDuration",
+                "opacityFrom": "advancedTintOutOpacity"
+              }
+            },
+            {
+              "type": "text",
+              "valueFrom": "maintext",
+              "typography": {
+                "align": { "vertical": "bottom", "horizontal": "left" },
+                "colorFrom": "maintextColor"
+              },
+              "transform": {
+                "dimensions": { "width": 920, "height": 375 },
+                "translate": { "x": 80, "y": 534 },
+                "rotate": 0
+              },
+              "inline": {
+                "background": {
+                  "gradient": {
+                    "angle": -90,
+                    "stops": [{ "colorFrom": "gradientFade", "opacity": 65 }, { "color": [0, 0, 0, 0] }]
+                  }
+                },
+                "transform": {
+                  "padding": {
+                    "left": 1920,
+                    "right": 1920,
+                    "top": 120,
+                    "bottom": 171
+                  },
+                  "visibilityFrom": "gradientFadeCheck"
+                }
+              }
+            },
+            {
+              "type": "text",
+              "valueFrom": "secondarytext",
+              "typography": {
+                "align": { "vertical": "top", "horizontal": "left" },
+                "colorFrom": "secondarytextColor"
+              },
+              "transform": {
+                "dimensions": { "width": 920, "height": 90 },
+                "translate": { "x": 80, "y": 930 },
+                "rotate": 0
+              }
+            },
+            {
+              "type": "number",
+              "valueFrom": "segmentNumber",
+              "typography": {
+                "align": { "vertical": "center", "horizontal": "left" },
+                "colorFrom": "segmentTextColor"
+              },
+              "transform": {
+                "dimensions": { "width": 150, "height": 90 },
+                "translate": { "x": 55, "y": 40 },
+                "rotate": 0,
+                "visibilityFrom": "segmentOnOff"
+              },
+              "inline": {
+                "background": { "colorFrom": "segmentBoxColor" },
+                "transform": {
+                  "padding": {
+                    "top": 15,
+                    "left": 15,
+                    "right": 15,
+                    "bottom": 15
+                  }
+                }
+              }
+            },
+            {
+              "valueFrom": "logotype",
+              "type": "asset",
+              "transform": {
+                "dimensions": { "maxWidth": 300, "maxHeight": 90 },
+                "translate": { "x": 1040, "y": 40 },
+                "align": { "horizontal": "right" },
+                "zIndex": 100,
+                "visibilityFrom": "showlogo"
+              }
+            }
+          ],
+          "landscape": [
+            {
+              "type": "asset",
+              "valueFrom": "background",
+              "asset": {
+                "align": {
+                  "horizontalFrom": "backXpos",
+                  "verticalFrom": "backYpos"
+                }
+              },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1920, "height": 1080 },
+                "zIndex": 0,
+                "rotate": 0,
+                "filter": [
+                  {
+                    "cubeFilterFrom": "filterType",
+                    "visibilityFrom": "filterParent",
+                    "opacityFrom": "filterOpacity"
+                  },
+                  {
+                    "canvasFilter": "grayscale(100%)",
+                    "visibilityFrom": "monochromeParent"
+                  },
+                  {
+                    "canvasFilter": "blur(10px)",
+                    "visibilityFrom": "blurParent"
+                  },
+                  {
+                    "visibilityFrom": "duotoneParent",
+                    "opacityFrom": "duotoneOpacity",
+                    "duotoneFilter": {
+                      "highlightFrom": "duotoneHighlightsColor",
+                      "shadowFrom": "duotoneShadowsColor",
+                      "intensityFrom": "duotoneIntensity"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Canvas color",
+              "background": { "colorFrom": "canvasColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1920, "height": 1920 },
+                "zIndex": -1
+              }
+            },
+            {
+              "title": "Background tint",
+              "background": { "colorFrom": "tintColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1920, "height": 1920 },
+                "visibilityFrom": "tintParent && !advancedTintParent",
+                "opacityFrom": "tintOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Left",
+              "background": { "colorFrom": "advancedTintInColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 120, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintInDuration",
+                "opacityFrom": "advancedTintInOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle Solo",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1920, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && !advancedTintInDuration && !advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle & Left",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 120, "y": 0 },
+                "dimensions": { "width": 1800, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintInDuration && !advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle & Both",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 120, "y": 0 },
+                "dimensions": { "width": 1680, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintInDuration && advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle & Right",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1800, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && !advancedTintInDuration && advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Right",
+              "background": { "colorFrom": "advancedTintOutColor" },
+              "transform": {
+                "translate": { "x": 1800, "y": 0 },
+                "dimensions": { "width": 120, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintOutDuration",
+                "opacityFrom": "advancedTintOutOpacity"
+              }
+            },
+            {
+              "type": "text",
+              "valueFrom": "maintext",
+              "typography": {
+                "align": { "vertical": "bottom", "horizontal": "left" },
+                "colorFrom": "maintextColor"
+              },
+              "transform": {
+                "dimensions": { "width": 920, "height": 375 },
+                "translate": { "x": 142, "y": 470 },
+                "rotate": 0
+              },
+              "inline": {
+                "background": {
+                  "gradient": {
+                    "angle": -90,
+                    "stops": [{ "colorFrom": "gradientFade", "opacity": 65 }, { "color": [0, 0, 0, 0] }]
+                  }
+                },
+                "transform": {
+                  "padding": {
+                    "left": 1920,
+                    "right": 1920,
+                    "top": 120,
+                    "bottom": 235
+                  },
+                  "visibilityFrom": "gradientFadeCheck"
+                }
+              }
+            },
+            {
+              "type": "text",
+              "valueFrom": "secondarytext",
+              "typography": {
+                "align": { "vertical": "top", "horizontal": "left" },
+                "colorFrom": "secondarytextColor"
+              },
+              "transform": {
+                "dimensions": { "width": 920, "height": 90 },
+                "translate": { "x": 142, "y": 860 },
+                "rotate": 0
+              }
+            },
+            {
+              "type": "number",
+              "valueFrom": "segmentNumber",
+              "typography": {
+                "align": { "vertical": "center", "horizontal": "left" },
+                "colorFrom": "segmentTextColor"
+              },
+              "transform": {
+                "dimensions": { "width": 150, "height": 90 },
+                "translate": { "x": 55, "y": 40 },
+                "rotate": 0,
+                "visibilityFrom": "segmentOnOff"
+              },
+              "inline": {
+                "background": { "colorFrom": "segmentBoxColor" },
+                "transform": {
+                  "padding": {
+                    "top": 15,
+                    "left": 15,
+                    "right": 15,
+                    "bottom": 15
+                  }
+                }
+              }
+            },
+            {
+              "valueFrom": "logotype",
+              "type": "asset",
+              "transform": {
+                "dimensions": { "maxWidth": 300, "maxHeight": 90 },
+                "translate": { "x": 1880, "y": 40 },
+                "align": { "horizontal": "right" },
+                "zIndex": 100,
+                "visibilityFrom": "showlogo"
+              }
+            }
+          ],
+          "portrait": [
+            {
+              "type": "asset",
+              "valueFrom": "background",
+              "asset": {
+                "align": {
+                  "horizontalFrom": "backXpos",
+                  "verticalFrom": "backYpos"
+                }
+              },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1080, "height": 1920 },
+                "zIndex": 0,
+                "rotate": 0,
+                "filter": [
+                  {
+                    "cubeFilterFrom": "filterType",
+                    "visibilityFrom": "filterParent",
+                    "opacityFrom": "filterOpacity"
+                  },
+                  {
+                    "canvasFilter": "grayscale(100%)",
+                    "visibilityFrom": "monochromeParent"
+                  },
+                  {
+                    "canvasFilter": "blur(10px)",
+                    "visibilityFrom": "blurParent"
+                  },
+                  {
+                    "visibilityFrom": "duotoneParent",
+                    "opacityFrom": "duotoneOpacity",
+                    "duotoneFilter": {
+                      "highlightFrom": "duotoneHighlightsColor",
+                      "shadowFrom": "duotoneShadowsColor",
+                      "intensityFrom": "duotoneIntensity"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Canvas color",
+              "background": { "colorFrom": "canvasColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1920, "height": 1920 },
+                "zIndex": -1
+              }
+            },
+            {
+              "title": "Background tint",
+              "background": { "colorFrom": "tintColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1920, "height": 1920 },
+                "visibilityFrom": "tintParent && !advancedTintParent",
+                "opacityFrom": "tintOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Left",
+              "background": { "colorFrom": "advancedTintInColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 120, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintInDuration",
+                "opacityFrom": "advancedTintInOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle Solo",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1920, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && !advancedTintInDuration && !advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle & Left",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 120, "y": 0 },
+                "dimensions": { "width": 960, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintInDuration && !advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle & Both",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 120, "y": 0 },
+                "dimensions": { "width": 840, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintInDuration && advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle & Right",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 960, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && !advancedTintInDuration && advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Right",
+              "background": { "colorFrom": "advancedTintOutColor" },
+              "transform": {
+                "translate": { "x": 960, "y": 0 },
+                "dimensions": { "width": 120, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintOutDuration",
+                "opacityFrom": "advancedTintOutOpacity"
+              }
+            },
+            {
+              "type": "text",
+              "valueFrom": "maintext",
+              "typography": {
+                "align": { "vertical": "bottom", "horizontal": "left" },
+                "colorFrom": "maintextColor"
+              },
+              "transform": {
+                "dimensions": { "width": 920, "height": 375 },
+                "translate": { "x": 80, "y": 1280 },
+                "rotate": 0
+              },
+              "inline": {
+                "background": {
+                  "gradient": {
+                    "angle": -90,
+                    "stops": [{ "colorFrom": "gradientFade", "opacity": 65 }, { "color": [0, 0, 0, 0] }]
+                  }
+                },
+                "transform": {
+                  "padding": {
+                    "left": 1920,
+                    "right": 1920,
+                    "top": 120,
+                    "bottom": 265
+                  },
+                  "visibilityFrom": "gradientFadeCheck"
+                }
+              }
+            },
+            {
+              "type": "text",
+              "valueFrom": "secondarytext",
+              "typography": {
+                "align": { "vertical": "top", "horizontal": "left" },
+                "colorFrom": "secondarytextColor"
+              },
+              "transform": {
+                "dimensions": { "width": 920, "height": 90 },
+                "translate": { "x": 80, "y": 1675 },
+                "rotate": 0
+              }
+            },
+            {
+              "type": "number",
+              "valueFrom": "segmentNumber",
+              "typography": {
+                "align": { "vertical": "center", "horizontal": "left" },
+                "colorFrom": "segmentTextColor"
+              },
+              "transform": {
+                "dimensions": { "width": 150, "height": 90 },
+                "translate": { "x": 55, "y": 40 },
+                "rotate": 0,
+                "visibilityFrom": "segmentOnOff"
+              },
+              "inline": {
+                "background": { "colorFrom": "segmentBoxColor" },
+                "transform": {
+                  "padding": {
+                    "top": 15,
+                    "left": 15,
+                    "right": 15,
+                    "bottom": 15
+                  }
+                }
+              }
+            },
+            {
+              "valueFrom": "logotype",
+              "type": "asset",
+              "transform": {
+                "dimensions": { "maxWidth": 300, "maxHeight": 90 },
+                "translate": { "x": 1040, "y": 40 },
+                "align": { "horizontal": "right" },
+                "zIndex": 100,
+                "visibilityFrom": "showlogo"
+              }
+            }
+          ]
+        },
+        "timings": {
+          "editable": false,
+          "duration": 7000,
+          "inheritsFrom": "duration"
+        },
+        "background": {
+          "allowedFileTypes": [],
+          "editable": true,
+          "asset": null
+        },
+        "s3location": {
+          "square": "s3://kit-videostudio-dev/simpleslide_1-1_1540361669055.zip",
+          "portrait": "s3://kit-videostudio-dev/simpleslide_9-16_1540361669698.zip",
+          "landscape": "s3://kit-videostudio-dev/simpleslide_16-9_1540361669396.zip"
+        },
+        "global": true,
+        "availableForClients": [],
+        "availableForAgencies": [],
+        "_id": "5c10b1d95a33c8183043322b",
+        "deprecated": false,
+        "displayName": "Simple slide",
+        "previewVideo": "https://s3-eu-west-1.amazonaws.com/static.kitcdn.se/resources/videos/slidetypes/SimpleSlide-1.mp4#t=2.00",
+        "infoLink": "https://ksesupport.zendesk.com/hc/sv/articles/360003990153-Simple-slide-Simple-Slide-2-0-",
+        "definitionGroup": {
+          "_id": "5bd00874e5f0d90a6e100199",
+          "displayName": "Story slides",
+          "description": "Try these for text content that drives the actual storyline.",
+          "created": "2019-12-04T15:32:20.496Z",
+          "order": 1,
+          "updated": "2019-12-05T12:35:41.881Z"
+        },
+        "variables": {
+          "maintext": {
+            "label": "Message",
+            "hint": "The main message.",
+            "placeholder": "Message",
+            "value": "",
+            "type": "text",
+            "themeFont": "large",
+            "textarea": true,
+            "validation": { "minLength": 0, "maxLength": 100 }
+          },
+          "secondarytext": {
+            "label": "Description",
+            "hint": "Complementary description text.",
+            "placeholder": "Description",
+            "value": "",
+            "type": "text",
+            "themeFont": "small",
+            "textarea": true,
+            "validation": { "minLength": 0, "maxLength": 100 }
+          },
+          "duration": {
+            "label": "Duration",
+            "hint": "Set the duration of the slide.",
+            "value": 7000,
+            "type": "number",
+            "validation": { "min": 3000, "max": 15000, "required": true },
+            "slider": true,
+            "step": 500,
+            "labelMultiplier": 0.001
+          },
+          "gradientFadeCheck": {
+            "label": "Show Gradient Fade",
+            "hint": "Set visibility for gradient fade for added legibility behind slide text.",
+            "value": true,
+            "type": "checkbox"
+          },
+          "segmentSettings": {
+            "type": "group",
+            "label": "Segment",
+            "value": {
+              "segmentOnOff": {
+                "label": "Segment",
+                "hint": "Apply a number box to the slide for pagination or list style.",
+                "radioButtons": true,
+                "type": "options",
+                "value": 0,
+                "options": [
+                  { "label": "On", "value": 1 },
+                  { "label": "Off", "value": 0 }
+                ]
+              },
+              "segmentFadeIn": {
+                "label": "Segment Fade In",
+                "hint": "The segment box fades in at the beginning of the slide.",
+                "value": false,
+                "type": "checkbox"
+              },
+              "segmentFadeOut": {
+                "label": "Segment Fade Out",
+                "hint": "The segment box fades out at the end of the slide.",
+                "value": false,
+                "type": "checkbox"
+              },
+              "segmentNumber": {
+                "label": "Segment number",
+                "hint": "The number in the segment box, digits only.",
+                "placeholder": "#",
+                "value": "",
+                "type": "number",
+                "themeFont": "large",
+                "textarea": false,
+                "validation": { "minLength": 1, "maxLength": 3 }
+              },
+              "segmentTextColor": {
+                "label": "Segment number color",
+                "hint": "Set the color of the Segment Number.",
+                "type": "colorpicker",
+                "value": {
+                  "themeColor": "textOnPrimary",
+                  "color": [1, 1, 1, 1],
+                  "overrideThemeColor": false
+                }
+              },
+              "segmentBoxColor": {
+                "label": "Segment box color",
+                "hint": "Set the color of the Segment Box.",
+                "type": "colorpicker",
+                "value": {
+                  "themeColor": "primary",
+                  "color": [0, 0, 0, 1],
+                  "overrideThemeColor": false
+                }
+              }
+            }
+          },
+          "colorSettings": {
+            "type": "group",
+            "label": "Color",
+            "value": {
+              "maintextColor": {
+                "label": "Message Text Color",
+                "hint": "Set the color of the Message text.",
+                "type": "colorpicker",
+                "value": {
+                  "themeColor": "white",
+                  "color": [1, 1, 1, 1],
+                  "overrideThemeColor": false
+                }
+              },
+              "secondarytextColor": {
+                "label": "Description Text Color",
+                "hint": "Set the color of the Description text.",
+                "type": "colorpicker",
+                "value": {
+                  "themeColor": "white",
+                  "color": [1, 1, 1, 1],
+                  "overrideThemeColor": false
+                }
+              }
+            }
+          },
+          "audioControls": {
+            "label": "Audio controls",
+            "type": "group",
+            "value": {
+              "audioControl": {
+                "type": "options",
+                "value": "leave",
+                "label": "Audio control",
+                "hint": "Set the volume levels for background music or main asset audio on the slide.",
+                "radioButtons": true,
+                "options": [
+                  {
+                    "label": "Play Music Only",
+                    "hint": "Keep the main asset audio muted and play background music.",
+                    "value": "leave"
+                  },
+                  {
+                    "label": "Mix Music and Main Asset Audio",
+                    "hint": "Mix the main asset audio with the background music.",
+                    "value": "lower"
+                  },
+                  {
+                    "label": "Play Main Asset Audio Only",
+                    "hint": "Mute the background music and play only the main asset audio.",
+                    "value": "mute"
+                  }
+                ]
+              },
+              "musicAudioLevel": {
+                "value": -12,
+                "type": "number",
+                "label": "Music Level",
+                "hint": "Set the music level when choosing \"Mix…\". 0dB equals default music level.",
+                "validation": { "min": -20, "max": 0, "required": true },
+                "slider": true,
+                "step": 4
+              },
+              "layerAudioLevel": {
+                "value": 0,
+                "type": "number",
+                "label": "Main Asset Audio Level",
+                "hint": "Set the audio level for the main asset. Up to 12dB boost.",
+                "validation": { "min": -3, "max": 12, "required": true },
+                "slider": true,
+                "step": 3
+              }
+            }
+          },
+          "logoSettings": {
+            "label": "Logo settings",
+            "type": "group",
+            "value": {
+              "showlogo": {
+                "label": "Show logo",
+                "hint": "Set the visibility for the logo on the slide.",
+                "value": true,
+                "type": "checkbox"
+              }
+            }
+          },
+          "experimentalGroup": {
+            "type": "group",
+            "label": "Highlight",
+            "value": {
+              "span1": {
+                "label": "Highlight span 1",
+                "placeholder": "X,X",
+                "value": "",
+                "type": "text",
+                "textarea": false
+              },
+              "span2": {
+                "label": "Highlight span 2",
+                "placeholder": "X,X",
+                "value": "",
+                "type": "text",
+                "textarea": false
+              },
+              "span3": {
+                "label": "Highlight span 3",
+                "placeholder": "X,X",
+                "value": "",
+                "type": "text",
+                "textarea": false
+              },
+              "highlightColor": {
+                "label": "Highlight color",
+                "hint": "Set the color of the highlighted text.",
+                "type": "colorpicker",
+                "value": {
+                  "themeColor": "primary",
+                  "color": [0, 0, 0, 1],
+                  "overrideThemeColor": false
+                }
+              }
+            }
+          },
+          "gradientFadeColor": {
+            "value": [0, 0, 0, 1],
+            "type": "color",
+            "themeColor": "gradientFade"
+          },
+          "mainAssetStyling": {
+            "hideInForm": true,
+            "type": "group",
+            "label": "Main asset styling (hidden)",
+            "value": {
+              "tintParent": {
+                "type": "parent",
+                "value": {
+                  "toggled": false,
+                  "children": {
+                    "tintFade": {
+                      "type": "fade",
+                      "label": "Tint Fade",
+                      "value": { "in": false, "out": false }
+                    },
+                    "tintColor": {
+                      "label": "Tint Color",
+                      "hint": "Set the color of the tint.",
+                      "type": "colorpicker",
+                      "value": {
+                        "themeColor": "primary",
+                        "color": [0, 0, 0, 1],
+                        "overrideThemeColor": false
+                      }
+                    },
+                    "tintOpacity": {
+                      "label": "Tint opacity",
+                      "hint": "Set the opacity of the tint.",
+                      "value": 65,
+                      "type": "number",
+                      "validation": { "min": 0, "max": 100, "required": true },
+                      "slider": true,
+                      "step": 1
+                    }
+                  }
+                }
+              },
+              "filterParent": {
+                "type": "parent",
+                "value": {
+                  "toggled": false,
+                  "children": {
+                    "filterFade": {
+                      "type": "fade",
+                      "label": "Filter Fade",
+                      "value": { "in": false, "out": false }
+                    },
+                    "filterType": {
+                      "label": "Filter type",
+                      "hint": "Set filter type.",
+                      "type": "options",
+                      "value": false,
+                      "validation": { "required": true },
+                      "options": [
+                        { "label": "#nofilter", "value": false },
+                        { "label": "1 - Aspen", "value": "1_aspen" },
+                        { "label": "2 - Ava", "value": "2_ava" },
+                        {
+                          "label": "3 - Bakersfield",
+                          "value": "3_bakersfield"
+                        },
+                        { "label": "4 - Blender", "value": "4_blender" },
+                        { "label": "5 - Byers", "value": "5_byers" },
+                        { "label": "6 - Chemical", "value": "6_chemical" },
+                        { "label": "7 - Cinedrama", "value": "7_cinedrama" },
+                        { "label": "8 - Darkroom", "value": "8_darkroom" },
+                        { "label": "9 - Django", "value": "9_django" },
+                        { "label": "10 - F-8700", "value": "10_F8700" },
+                        { "label": "11 - Faded", "value": "11_faded" },
+                        { "label": "12 - Folger", "value": "12_folger" },
+                        { "label": "13 - Frisco", "value": "13_frisco" },
+                        { "label": "14 - Holga", "value": "14_holga" },
+                        { "label": "15 - Humble", "value": "15_humble" },
+                        { "label": "16 - Korben", "value": "16_korben" },
+                        {
+                          "label": "17 - Lady Celsius",
+                          "value": "17_lady_celsius"
+                        },
+                        { "label": "18 - Latefish", "value": "18_latefish" },
+                        {
+                          "label": "19 - Metropolis",
+                          "value": "19_metropolis"
+                        },
+                        { "label": "20 - Quill", "value": "20_quill" },
+                        { "label": "21 - Reeve", "value": "21_reeve" },
+                        { "label": "22 - Thoreau", "value": "22_thoreau" },
+                        { "label": "23 - Weissbier", "value": "23_weissbier" },
+                        { "label": "24 - Woodward", "value": "24_woodward" },
+                        { "label": "25 - Zeke", "value": "25_zeke" }
+                      ]
+                    },
+                    "filterOpacity": {
+                      "label": "Filter opacity",
+                      "hint": "Set the opacity of the filter.",
+                      "value": 100,
+                      "type": "number",
+                      "validation": { "min": 0, "max": 100, "required": true },
+                      "slider": true,
+                      "step": 1
+                    }
+                  }
+                }
+              },
+              "blurParent": {
+                "type": "parent",
+                "value": {
+                  "toggled": false,
+                  "children": {
+                    "blurFade": {
+                      "type": "fade",
+                      "label": "Blur Fade",
+                      "value": { "in": false, "out": false }
+                    }
+                  }
+                }
+              },
+              "monochromeParent": {
+                "type": "parent",
+                "value": {
+                  "toggled": false,
+                  "children": {
+                    "monochromeFade": {
+                      "type": "fade",
+                      "label": "Monochrome Fade",
+                      "value": { "in": false, "out": false }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "definitionType": {
+          "_id": "5c10b1f9db183a1868fabfac",
+          "name": "simpleslide"
+        },
+        "status": "newest",
+        "garbo": {
+          "sceneLocation": {
+            "key": "mock-data/scene.json",
+            "bucket": "test"
+          }
+        }
+      },
+      "variables": {
+        "maintext": {
+          "type": "text",
+          "value": "First",
+          "dirty": false,
+          "themeFont": "large"
+        },
+        "secondarytext": {
+          "type": "text",
+          "value": "1",
+          "dirty": false,
+          "themeFont": "small"
+        },
+        "duration": { "type": "number", "value": 3000, "dirty": true },
+        "gradientFadeCheck": {
+          "type": "checkbox",
+          "value": true,
+          "dirty": false
+        },
+        "segmentSettings": {
+          "type": "group",
+          "value": {
+            "segmentOnOff": { "type": "options", "value": 0, "dirty": false },
+            "segmentFadeIn": {
+              "type": "checkbox",
+              "value": false,
+              "dirty": false
+            },
+            "segmentFadeOut": {
+              "type": "checkbox",
+              "value": false,
+              "dirty": false
+            },
+            "segmentNumber": { "type": "number", "value": "", "dirty": false },
+            "segmentTextColor": {
+              "type": "colorpicker",
+              "value": {
+                "themeColor": "textOnPrimary",
+                "color": [1, 1, 1, 1],
+                "overrideThemeColor": false
+              },
+              "dirty": false
+            },
+            "segmentBoxColor": {
+              "type": "colorpicker",
+              "value": {
+                "themeColor": "primary",
+                "color": [0, 0, 0, 1],
+                "overrideThemeColor": false
+              },
+              "dirty": false
+            }
+          },
+          "dirty": false
+        },
+        "colorSettings": {
+          "type": "group",
+          "value": {
+            "maintextColor": {
+              "type": "colorpicker",
+              "value": {
+                "themeColor": "white",
+                "color": [1, 1, 1, 1],
+                "overrideThemeColor": false
+              },
+              "dirty": false
+            },
+            "secondarytextColor": {
+              "type": "colorpicker",
+              "value": {
+                "themeColor": "white",
+                "color": [1, 1, 1, 1],
+                "overrideThemeColor": false
+              },
+              "dirty": false
+            }
+          },
+          "dirty": false
+        },
+        "mainAssetStyling": {
+          "type": "group",
+          "value": {
+            "tintParent": {
+              "type": "parent",
+              "value": {
+                "toggled": false,
+                "children": {
+                  "tintFade": {
+                    "type": "fade",
+                    "value": { "in": false, "out": false }
+                  },
+                  "tintColor": {
+                    "type": "colorpicker",
+                    "value": {
+                      "themeColor": "primary",
+                      "color": [0, 0, 0, 1],
+                      "overrideThemeColor": false
+                    }
+                  },
+                  "tintOpacity": { "type": "number", "value": 65 }
+                }
+              }
+            },
+            "filterParent": {
+              "type": "parent",
+              "value": {
+                "toggled": false,
+                "children": {
+                  "filterFade": {
+                    "type": "fade",
+                    "value": { "in": false, "out": false }
+                  },
+                  "filterType": { "type": "options", "value": false },
+                  "filterOpacity": { "type": "number", "value": 100 }
+                }
+              }
+            },
+            "blurParent": {
+              "type": "parent",
+              "value": {
+                "toggled": false,
+                "children": {
+                  "blurFade": {
+                    "type": "fade",
+                    "value": { "in": false, "out": false }
+                  }
+                }
+              }
+            },
+            "monochromeParent": {
+              "type": "parent",
+              "value": {
+                "toggled": false,
+                "children": {
+                  "monochromeFade": {
+                    "type": "fade",
+                    "value": { "in": false, "out": false }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "audioControls": {
+          "type": "group",
+          "value": {
+            "audioControl": {
+              "type": "options",
+              "value": "leave",
+              "dirty": false
+            },
+            "musicAudioLevel": {
+              "type": "number",
+              "value": -12,
+              "dirty": false
+            },
+            "layerAudioLevel": { "type": "number", "value": 0, "dirty": false }
+          },
+          "dirty": false
+        },
+        "logoSettings": {
+          "type": "group",
+          "value": {
+            "showlogo": { "type": "checkbox", "value": true, "dirty": false }
+          },
+          "dirty": false
+        },
+        "experimentalGroup": {
+          "type": "group",
+          "value": {
+            "span1": { "type": "text", "value": "", "dirty": false },
+            "span2": { "type": "text", "value": "", "dirty": false },
+            "span3": { "type": "text", "value": "", "dirty": false },
+            "highlightColor": {
+              "type": "colorpicker",
+              "value": {
+                "themeColor": "primary",
+                "color": [0, 0, 0, 1],
+                "overrideThemeColor": false
+              },
+              "dirty": false
+            }
+          },
+          "dirty": false
+        },
+        "gradientFadeColor": {
+          "type": "color",
+          "value": [0, 0, 0, 1],
+          "themeColor": "gradientFade"
+        }
+      },
+      "position": 0,
+      "workspace": "5fca36f91318780004db7d84",
+      "history": "5fca36fb1318780004db7f0c",
+      "metaData": {
+        "age": [],
+        "articleObjective": [],
+        "articleType": [],
+        "category": [],
+        "commercialIntent": [],
+        "contentTonality": [],
+        "context": [],
+        "development": [],
+        "editorialGeography": [],
+        "editorialIntent": [],
+        "gender": [],
+        "headlineType": [],
+        "messageType": [],
+        "nature": [],
+        "productionType": [],
+        "videoFormat": [],
+        "_id": "5fca36fb1318780004db7f0e",
+        "ref": {
+          "objectId": "5fca36fb1318780004db7f0b",
+          "schema": "VideoSlide"
+        },
+        "history": "5fca36fb1318780004db7f0f",
+        "updated": "2020-12-04T13:17:47.648Z",
+        "__v": 0
+      },
+      "created": "2020-12-04T13:17:47.648Z",
+      "updated": "2020-12-04T13:18:23.676Z",
+      "__v": 0
+    },
+    {
+      "createdBy": {
+        "id": "294",
+        "name": "Daniel Rönnkvist",
+        "login": "danielronnkvist",
+        "email": "daniel.ronnkvist@storykit.io"
+      },
+      "timings": { "durationOverride": 0 },
+      "note": "",
+      "background": "5fca36fb1318780004db7f05",
+      "_id": "5fca36ff1318780004db7f17",
+      "definition": {
+        "previewElements": {
+          "square": [
+            {
+              "type": "asset",
+              "valueFrom": "background",
+              "asset": {
+                "align": {
+                  "horizontalFrom": "backXpos",
+                  "verticalFrom": "backYpos"
+                }
+              },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1080, "height": 1080 },
+                "zIndex": 0,
+                "rotate": 0,
+                "filter": [
+                  {
+                    "cubeFilterFrom": "filterType",
+                    "visibilityFrom": "filterParent",
+                    "opacityFrom": "filterOpacity"
+                  },
+                  {
+                    "canvasFilter": "grayscale(100%)",
+                    "visibilityFrom": "monochromeParent"
+                  },
+                  {
+                    "canvasFilter": "blur(10px)",
+                    "visibilityFrom": "blurParent"
+                  },
+                  {
+                    "visibilityFrom": "duotoneParent",
+                    "opacityFrom": "duotoneOpacity",
+                    "duotoneFilter": {
+                      "highlightFrom": "duotoneHighlightsColor",
+                      "shadowFrom": "duotoneShadowsColor",
+                      "intensityFrom": "duotoneIntensity"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Canvas color",
+              "background": { "colorFrom": "canvasColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1920, "height": 1920 },
+                "zIndex": -1
+              }
+            },
+            {
+              "title": "Background tint",
+              "background": { "colorFrom": "tintColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1920, "height": 1920 },
+                "visibilityFrom": "tintParent && !advancedTintParent",
+                "opacityFrom": "tintOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Left",
+              "background": { "colorFrom": "advancedTintInColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 120, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintInDuration",
+                "opacityFrom": "advancedTintInOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle Solo",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1920, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && !advancedTintInDuration && !advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle & Left",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 120, "y": 0 },
+                "dimensions": { "width": 960, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintInDuration && !advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle & Both",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 120, "y": 0 },
+                "dimensions": { "width": 840, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintInDuration && advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle & Right",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 960, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && !advancedTintInDuration && advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Right",
+              "background": { "colorFrom": "advancedTintOutColor" },
+              "transform": {
+                "translate": { "x": 960, "y": 0 },
+                "dimensions": { "width": 120, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintOutDuration",
+                "opacityFrom": "advancedTintOutOpacity"
+              }
+            },
+            {
+              "type": "text",
+              "valueFrom": "maintext",
+              "typography": {
+                "align": { "vertical": "bottom", "horizontal": "left" },
+                "colorFrom": "maintextColor"
+              },
+              "transform": {
+                "dimensions": { "width": 920, "height": 375 },
+                "translate": { "x": 80, "y": 534 },
+                "rotate": 0
+              },
+              "inline": {
+                "background": {
+                  "gradient": {
+                    "angle": -90,
+                    "stops": [{ "colorFrom": "gradientFade", "opacity": 65 }, { "color": [0, 0, 0, 0] }]
+                  }
+                },
+                "transform": {
+                  "padding": {
+                    "left": 1920,
+                    "right": 1920,
+                    "top": 120,
+                    "bottom": 171
+                  },
+                  "visibilityFrom": "gradientFadeCheck"
+                }
+              }
+            },
+            {
+              "type": "text",
+              "valueFrom": "secondarytext",
+              "typography": {
+                "align": { "vertical": "top", "horizontal": "left" },
+                "colorFrom": "secondarytextColor"
+              },
+              "transform": {
+                "dimensions": { "width": 920, "height": 90 },
+                "translate": { "x": 80, "y": 930 },
+                "rotate": 0
+              }
+            },
+            {
+              "type": "number",
+              "valueFrom": "segmentNumber",
+              "typography": {
+                "align": { "vertical": "center", "horizontal": "left" },
+                "colorFrom": "segmentTextColor"
+              },
+              "transform": {
+                "dimensions": { "width": 150, "height": 90 },
+                "translate": { "x": 55, "y": 40 },
+                "rotate": 0,
+                "visibilityFrom": "segmentOnOff"
+              },
+              "inline": {
+                "background": { "colorFrom": "segmentBoxColor" },
+                "transform": {
+                  "padding": {
+                    "top": 15,
+                    "left": 15,
+                    "right": 15,
+                    "bottom": 15
+                  }
+                }
+              }
+            },
+            {
+              "valueFrom": "logotype",
+              "type": "asset",
+              "transform": {
+                "dimensions": { "maxWidth": 300, "maxHeight": 90 },
+                "translate": { "x": 1040, "y": 40 },
+                "align": { "horizontal": "right" },
+                "zIndex": 100,
+                "visibilityFrom": "showlogo"
+              }
+            }
+          ],
+          "landscape": [
+            {
+              "type": "asset",
+              "valueFrom": "background",
+              "asset": {
+                "align": {
+                  "horizontalFrom": "backXpos",
+                  "verticalFrom": "backYpos"
+                }
+              },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1920, "height": 1080 },
+                "zIndex": 0,
+                "rotate": 0,
+                "filter": [
+                  {
+                    "cubeFilterFrom": "filterType",
+                    "visibilityFrom": "filterParent",
+                    "opacityFrom": "filterOpacity"
+                  },
+                  {
+                    "canvasFilter": "grayscale(100%)",
+                    "visibilityFrom": "monochromeParent"
+                  },
+                  {
+                    "canvasFilter": "blur(10px)",
+                    "visibilityFrom": "blurParent"
+                  },
+                  {
+                    "visibilityFrom": "duotoneParent",
+                    "opacityFrom": "duotoneOpacity",
+                    "duotoneFilter": {
+                      "highlightFrom": "duotoneHighlightsColor",
+                      "shadowFrom": "duotoneShadowsColor",
+                      "intensityFrom": "duotoneIntensity"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Canvas color",
+              "background": { "colorFrom": "canvasColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1920, "height": 1920 },
+                "zIndex": -1
+              }
+            },
+            {
+              "title": "Background tint",
+              "background": { "colorFrom": "tintColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1920, "height": 1920 },
+                "visibilityFrom": "tintParent && !advancedTintParent",
+                "opacityFrom": "tintOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Left",
+              "background": { "colorFrom": "advancedTintInColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 120, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintInDuration",
+                "opacityFrom": "advancedTintInOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle Solo",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1920, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && !advancedTintInDuration && !advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle & Left",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 120, "y": 0 },
+                "dimensions": { "width": 1800, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintInDuration && !advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle & Both",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 120, "y": 0 },
+                "dimensions": { "width": 1680, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintInDuration && advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle & Right",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1800, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && !advancedTintInDuration && advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Right",
+              "background": { "colorFrom": "advancedTintOutColor" },
+              "transform": {
+                "translate": { "x": 1800, "y": 0 },
+                "dimensions": { "width": 120, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintOutDuration",
+                "opacityFrom": "advancedTintOutOpacity"
+              }
+            },
+            {
+              "type": "text",
+              "valueFrom": "maintext",
+              "typography": {
+                "align": { "vertical": "bottom", "horizontal": "left" },
+                "colorFrom": "maintextColor"
+              },
+              "transform": {
+                "dimensions": { "width": 920, "height": 375 },
+                "translate": { "x": 142, "y": 470 },
+                "rotate": 0
+              },
+              "inline": {
+                "background": {
+                  "gradient": {
+                    "angle": -90,
+                    "stops": [{ "colorFrom": "gradientFade", "opacity": 65 }, { "color": [0, 0, 0, 0] }]
+                  }
+                },
+                "transform": {
+                  "padding": {
+                    "left": 1920,
+                    "right": 1920,
+                    "top": 120,
+                    "bottom": 235
+                  },
+                  "visibilityFrom": "gradientFadeCheck"
+                }
+              }
+            },
+            {
+              "type": "text",
+              "valueFrom": "secondarytext",
+              "typography": {
+                "align": { "vertical": "top", "horizontal": "left" },
+                "colorFrom": "secondarytextColor"
+              },
+              "transform": {
+                "dimensions": { "width": 920, "height": 90 },
+                "translate": { "x": 142, "y": 860 },
+                "rotate": 0
+              }
+            },
+            {
+              "type": "number",
+              "valueFrom": "segmentNumber",
+              "typography": {
+                "align": { "vertical": "center", "horizontal": "left" },
+                "colorFrom": "segmentTextColor"
+              },
+              "transform": {
+                "dimensions": { "width": 150, "height": 90 },
+                "translate": { "x": 55, "y": 40 },
+                "rotate": 0,
+                "visibilityFrom": "segmentOnOff"
+              },
+              "inline": {
+                "background": { "colorFrom": "segmentBoxColor" },
+                "transform": {
+                  "padding": {
+                    "top": 15,
+                    "left": 15,
+                    "right": 15,
+                    "bottom": 15
+                  }
+                }
+              }
+            },
+            {
+              "valueFrom": "logotype",
+              "type": "asset",
+              "transform": {
+                "dimensions": { "maxWidth": 300, "maxHeight": 90 },
+                "translate": { "x": 1880, "y": 40 },
+                "align": { "horizontal": "right" },
+                "zIndex": 100,
+                "visibilityFrom": "showlogo"
+              }
+            }
+          ],
+          "portrait": [
+            {
+              "type": "asset",
+              "valueFrom": "background",
+              "asset": {
+                "align": {
+                  "horizontalFrom": "backXpos",
+                  "verticalFrom": "backYpos"
+                }
+              },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1080, "height": 1920 },
+                "zIndex": 0,
+                "rotate": 0,
+                "filter": [
+                  {
+                    "cubeFilterFrom": "filterType",
+                    "visibilityFrom": "filterParent",
+                    "opacityFrom": "filterOpacity"
+                  },
+                  {
+                    "canvasFilter": "grayscale(100%)",
+                    "visibilityFrom": "monochromeParent"
+                  },
+                  {
+                    "canvasFilter": "blur(10px)",
+                    "visibilityFrom": "blurParent"
+                  },
+                  {
+                    "visibilityFrom": "duotoneParent",
+                    "opacityFrom": "duotoneOpacity",
+                    "duotoneFilter": {
+                      "highlightFrom": "duotoneHighlightsColor",
+                      "shadowFrom": "duotoneShadowsColor",
+                      "intensityFrom": "duotoneIntensity"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Canvas color",
+              "background": { "colorFrom": "canvasColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1920, "height": 1920 },
+                "zIndex": -1
+              }
+            },
+            {
+              "title": "Background tint",
+              "background": { "colorFrom": "tintColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1920, "height": 1920 },
+                "visibilityFrom": "tintParent && !advancedTintParent",
+                "opacityFrom": "tintOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Left",
+              "background": { "colorFrom": "advancedTintInColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 120, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintInDuration",
+                "opacityFrom": "advancedTintInOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle Solo",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 1920, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && !advancedTintInDuration && !advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle & Left",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 120, "y": 0 },
+                "dimensions": { "width": 960, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintInDuration && !advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle & Both",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 120, "y": 0 },
+                "dimensions": { "width": 840, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintInDuration && advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Middle & Right",
+              "background": { "colorFrom": "advancedTintHoldColor" },
+              "transform": {
+                "translate": { "x": 0, "y": 0 },
+                "dimensions": { "width": 960, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && !advancedTintInDuration && advancedTintOutDuration",
+                "opacityFrom": "advancedTintHoldOpacity"
+              }
+            },
+            {
+              "title": "Advanced Tint Right",
+              "background": { "colorFrom": "advancedTintOutColor" },
+              "transform": {
+                "translate": { "x": 960, "y": 0 },
+                "dimensions": { "width": 120, "height": 1920 },
+                "visibilityFrom": "advancedTintParent && advancedTintOutDuration",
+                "opacityFrom": "advancedTintOutOpacity"
+              }
+            },
+            {
+              "type": "text",
+              "valueFrom": "maintext",
+              "typography": {
+                "align": { "vertical": "bottom", "horizontal": "left" },
+                "colorFrom": "maintextColor"
+              },
+              "transform": {
+                "dimensions": { "width": 920, "height": 375 },
+                "translate": { "x": 80, "y": 1280 },
+                "rotate": 0
+              },
+              "inline": {
+                "background": {
+                  "gradient": {
+                    "angle": -90,
+                    "stops": [{ "colorFrom": "gradientFade", "opacity": 65 }, { "color": [0, 0, 0, 0] }]
+                  }
+                },
+                "transform": {
+                  "padding": {
+                    "left": 1920,
+                    "right": 1920,
+                    "top": 120,
+                    "bottom": 265
+                  },
+                  "visibilityFrom": "gradientFadeCheck"
+                }
+              }
+            },
+            {
+              "type": "text",
+              "valueFrom": "secondarytext",
+              "typography": {
+                "align": { "vertical": "top", "horizontal": "left" },
+                "colorFrom": "secondarytextColor"
+              },
+              "transform": {
+                "dimensions": { "width": 920, "height": 90 },
+                "translate": { "x": 80, "y": 1675 },
+                "rotate": 0
+              }
+            },
+            {
+              "type": "number",
+              "valueFrom": "segmentNumber",
+              "typography": {
+                "align": { "vertical": "center", "horizontal": "left" },
+                "colorFrom": "segmentTextColor"
+              },
+              "transform": {
+                "dimensions": { "width": 150, "height": 90 },
+                "translate": { "x": 55, "y": 40 },
+                "rotate": 0,
+                "visibilityFrom": "segmentOnOff"
+              },
+              "inline": {
+                "background": { "colorFrom": "segmentBoxColor" },
+                "transform": {
+                  "padding": {
+                    "top": 15,
+                    "left": 15,
+                    "right": 15,
+                    "bottom": 15
+                  }
+                }
+              }
+            },
+            {
+              "valueFrom": "logotype",
+              "type": "asset",
+              "transform": {
+                "dimensions": { "maxWidth": 300, "maxHeight": 90 },
+                "translate": { "x": 1040, "y": 40 },
+                "align": { "horizontal": "right" },
+                "zIndex": 100,
+                "visibilityFrom": "showlogo"
+              }
+            }
+          ]
+        },
+        "timings": {
+          "editable": false,
+          "duration": 7000,
+          "inheritsFrom": "duration"
+        },
+        "background": {
+          "allowedFileTypes": [],
+          "editable": true,
+          "asset": null
+        },
+        "s3location": {
+          "square": "s3://kit-videostudio-dev/simpleslide_1-1_1540361669055.zip",
+          "portrait": "s3://kit-videostudio-dev/simpleslide_9-16_1540361669698.zip",
+          "landscape": "s3://kit-videostudio-dev/simpleslide_16-9_1540361669396.zip"
+        },
+        "global": true,
+        "availableForClients": [],
+        "availableForAgencies": [],
+        "_id": "5c10b1d95a33c8183043322b",
+        "deprecated": false,
+        "displayName": "Simple slide",
+        "previewVideo": "https://s3-eu-west-1.amazonaws.com/static.kitcdn.se/resources/videos/slidetypes/SimpleSlide-1.mp4#t=2.00",
+        "infoLink": "https://ksesupport.zendesk.com/hc/sv/articles/360003990153-Simple-slide-Simple-Slide-2-0-",
+        "definitionGroup": {
+          "_id": "5bd00874e5f0d90a6e100199",
+          "displayName": "Story slides",
+          "description": "Try these for text content that drives the actual storyline.",
+          "created": "2019-12-04T15:32:20.496Z",
+          "order": 1,
+          "updated": "2019-12-05T12:35:41.881Z"
+        },
+        "variables": {
+          "maintext": {
+            "label": "Message",
+            "hint": "The main message.",
+            "placeholder": "Message",
+            "value": "",
+            "type": "text",
+            "themeFont": "large",
+            "textarea": true,
+            "validation": { "minLength": 0, "maxLength": 100 }
+          },
+          "secondarytext": {
+            "label": "Description",
+            "hint": "Complementary description text.",
+            "placeholder": "Description",
+            "value": "",
+            "type": "text",
+            "themeFont": "small",
+            "textarea": true,
+            "validation": { "minLength": 0, "maxLength": 100 }
+          },
+          "duration": {
+            "label": "Duration",
+            "hint": "Set the duration of the slide.",
+            "value": 7000,
+            "type": "number",
+            "validation": { "min": 3000, "max": 15000, "required": true },
+            "slider": true,
+            "step": 500,
+            "labelMultiplier": 0.001
+          },
+          "gradientFadeCheck": {
+            "label": "Show Gradient Fade",
+            "hint": "Set visibility for gradient fade for added legibility behind slide text.",
+            "value": true,
+            "type": "checkbox"
+          },
+          "segmentSettings": {
+            "type": "group",
+            "label": "Segment",
+            "value": {
+              "segmentOnOff": {
+                "label": "Segment",
+                "hint": "Apply a number box to the slide for pagination or list style.",
+                "radioButtons": true,
+                "type": "options",
+                "value": 0,
+                "options": [
+                  { "label": "On", "value": 1 },
+                  { "label": "Off", "value": 0 }
+                ]
+              },
+              "segmentFadeIn": {
+                "label": "Segment Fade In",
+                "hint": "The segment box fades in at the beginning of the slide.",
+                "value": false,
+                "type": "checkbox"
+              },
+              "segmentFadeOut": {
+                "label": "Segment Fade Out",
+                "hint": "The segment box fades out at the end of the slide.",
+                "value": false,
+                "type": "checkbox"
+              },
+              "segmentNumber": {
+                "label": "Segment number",
+                "hint": "The number in the segment box, digits only.",
+                "placeholder": "#",
+                "value": "",
+                "type": "number",
+                "themeFont": "large",
+                "textarea": false,
+                "validation": { "minLength": 1, "maxLength": 3 }
+              },
+              "segmentTextColor": {
+                "label": "Segment number color",
+                "hint": "Set the color of the Segment Number.",
+                "type": "colorpicker",
+                "value": {
+                  "themeColor": "textOnPrimary",
+                  "color": [1, 1, 1, 1],
+                  "overrideThemeColor": false
+                }
+              },
+              "segmentBoxColor": {
+                "label": "Segment box color",
+                "hint": "Set the color of the Segment Box.",
+                "type": "colorpicker",
+                "value": {
+                  "themeColor": "primary",
+                  "color": [0, 0, 0, 1],
+                  "overrideThemeColor": false
+                }
+              }
+            }
+          },
+          "colorSettings": {
+            "type": "group",
+            "label": "Color",
+            "value": {
+              "maintextColor": {
+                "label": "Message Text Color",
+                "hint": "Set the color of the Message text.",
+                "type": "colorpicker",
+                "value": {
+                  "themeColor": "white",
+                  "color": [1, 1, 1, 1],
+                  "overrideThemeColor": false
+                }
+              },
+              "secondarytextColor": {
+                "label": "Description Text Color",
+                "hint": "Set the color of the Description text.",
+                "type": "colorpicker",
+                "value": {
+                  "themeColor": "white",
+                  "color": [1, 1, 1, 1],
+                  "overrideThemeColor": false
+                }
+              }
+            }
+          },
+          "audioControls": {
+            "label": "Audio controls",
+            "type": "group",
+            "value": {
+              "audioControl": {
+                "type": "options",
+                "value": "leave",
+                "label": "Audio control",
+                "hint": "Set the volume levels for background music or main asset audio on the slide.",
+                "radioButtons": true,
+                "options": [
+                  {
+                    "label": "Play Music Only",
+                    "hint": "Keep the main asset audio muted and play background music.",
+                    "value": "leave"
+                  },
+                  {
+                    "label": "Mix Music and Main Asset Audio",
+                    "hint": "Mix the main asset audio with the background music.",
+                    "value": "lower"
+                  },
+                  {
+                    "label": "Play Main Asset Audio Only",
+                    "hint": "Mute the background music and play only the main asset audio.",
+                    "value": "mute"
+                  }
+                ]
+              },
+              "musicAudioLevel": {
+                "value": -12,
+                "type": "number",
+                "label": "Music Level",
+                "hint": "Set the music level when choosing \"Mix…\". 0dB equals default music level.",
+                "validation": { "min": -20, "max": 0, "required": true },
+                "slider": true,
+                "step": 4
+              },
+              "layerAudioLevel": {
+                "value": 0,
+                "type": "number",
+                "label": "Main Asset Audio Level",
+                "hint": "Set the audio level for the main asset. Up to 12dB boost.",
+                "validation": { "min": -3, "max": 12, "required": true },
+                "slider": true,
+                "step": 3
+              }
+            }
+          },
+          "logoSettings": {
+            "label": "Logo settings",
+            "type": "group",
+            "value": {
+              "showlogo": {
+                "label": "Show logo",
+                "hint": "Set the visibility for the logo on the slide.",
+                "value": true,
+                "type": "checkbox"
+              }
+            }
+          },
+          "experimentalGroup": {
+            "type": "group",
+            "label": "Highlight",
+            "value": {
+              "span1": {
+                "label": "Highlight span 1",
+                "placeholder": "X,X",
+                "value": "",
+                "type": "text",
+                "textarea": false
+              },
+              "span2": {
+                "label": "Highlight span 2",
+                "placeholder": "X,X",
+                "value": "",
+                "type": "text",
+                "textarea": false
+              },
+              "span3": {
+                "label": "Highlight span 3",
+                "placeholder": "X,X",
+                "value": "",
+                "type": "text",
+                "textarea": false
+              },
+              "highlightColor": {
+                "label": "Highlight color",
+                "hint": "Set the color of the highlighted text.",
+                "type": "colorpicker",
+                "value": {
+                  "themeColor": "primary",
+                  "color": [0, 0, 0, 1],
+                  "overrideThemeColor": false
+                }
+              }
+            }
+          },
+          "gradientFadeColor": {
+            "value": [0, 0, 0, 1],
+            "type": "color",
+            "themeColor": "gradientFade"
+          },
+          "mainAssetStyling": {
+            "hideInForm": true,
+            "type": "group",
+            "label": "Main asset styling (hidden)",
+            "value": {
+              "tintParent": {
+                "type": "parent",
+                "value": {
+                  "toggled": false,
+                  "children": {
+                    "tintFade": {
+                      "type": "fade",
+                      "label": "Tint Fade",
+                      "value": { "in": false, "out": false }
+                    },
+                    "tintColor": {
+                      "label": "Tint Color",
+                      "hint": "Set the color of the tint.",
+                      "type": "colorpicker",
+                      "value": {
+                        "themeColor": "primary",
+                        "color": [0, 0, 0, 1],
+                        "overrideThemeColor": false
+                      }
+                    },
+                    "tintOpacity": {
+                      "label": "Tint opacity",
+                      "hint": "Set the opacity of the tint.",
+                      "value": 65,
+                      "type": "number",
+                      "validation": { "min": 0, "max": 100, "required": true },
+                      "slider": true,
+                      "step": 1
+                    }
+                  }
+                }
+              },
+              "filterParent": {
+                "type": "parent",
+                "value": {
+                  "toggled": false,
+                  "children": {
+                    "filterFade": {
+                      "type": "fade",
+                      "label": "Filter Fade",
+                      "value": { "in": false, "out": false }
+                    },
+                    "filterType": {
+                      "label": "Filter type",
+                      "hint": "Set filter type.",
+                      "type": "options",
+                      "value": false,
+                      "validation": { "required": true },
+                      "options": [
+                        { "label": "#nofilter", "value": false },
+                        { "label": "1 - Aspen", "value": "1_aspen" },
+                        { "label": "2 - Ava", "value": "2_ava" },
+                        {
+                          "label": "3 - Bakersfield",
+                          "value": "3_bakersfield"
+                        },
+                        { "label": "4 - Blender", "value": "4_blender" },
+                        { "label": "5 - Byers", "value": "5_byers" },
+                        { "label": "6 - Chemical", "value": "6_chemical" },
+                        { "label": "7 - Cinedrama", "value": "7_cinedrama" },
+                        { "label": "8 - Darkroom", "value": "8_darkroom" },
+                        { "label": "9 - Django", "value": "9_django" },
+                        { "label": "10 - F-8700", "value": "10_F8700" },
+                        { "label": "11 - Faded", "value": "11_faded" },
+                        { "label": "12 - Folger", "value": "12_folger" },
+                        { "label": "13 - Frisco", "value": "13_frisco" },
+                        { "label": "14 - Holga", "value": "14_holga" },
+                        { "label": "15 - Humble", "value": "15_humble" },
+                        { "label": "16 - Korben", "value": "16_korben" },
+                        {
+                          "label": "17 - Lady Celsius",
+                          "value": "17_lady_celsius"
+                        },
+                        { "label": "18 - Latefish", "value": "18_latefish" },
+                        {
+                          "label": "19 - Metropolis",
+                          "value": "19_metropolis"
+                        },
+                        { "label": "20 - Quill", "value": "20_quill" },
+                        { "label": "21 - Reeve", "value": "21_reeve" },
+                        { "label": "22 - Thoreau", "value": "22_thoreau" },
+                        { "label": "23 - Weissbier", "value": "23_weissbier" },
+                        { "label": "24 - Woodward", "value": "24_woodward" },
+                        { "label": "25 - Zeke", "value": "25_zeke" }
+                      ]
+                    },
+                    "filterOpacity": {
+                      "label": "Filter opacity",
+                      "hint": "Set the opacity of the filter.",
+                      "value": 100,
+                      "type": "number",
+                      "validation": { "min": 0, "max": 100, "required": true },
+                      "slider": true,
+                      "step": 1
+                    }
+                  }
+                }
+              },
+              "blurParent": {
+                "type": "parent",
+                "value": {
+                  "toggled": false,
+                  "children": {
+                    "blurFade": {
+                      "type": "fade",
+                      "label": "Blur Fade",
+                      "value": { "in": false, "out": false }
+                    }
+                  }
+                }
+              },
+              "monochromeParent": {
+                "type": "parent",
+                "value": {
+                  "toggled": false,
+                  "children": {
+                    "monochromeFade": {
+                      "type": "fade",
+                      "label": "Monochrome Fade",
+                      "value": { "in": false, "out": false }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "definitionType": {
+          "_id": "5c10b1f9db183a1868fabfac",
+          "name": "simpleslide"
+        },
+        "status": "newest",
+        "garbo": {
+          "sceneLocation": {
+            "key": "mock-data/scene.json",
+            "bucket": "test"
+          }
+        }
+      },
+      "variables": {
+        "maintext": {
+          "type": "text",
+          "value": "Second",
+          "dirty": true,
+          "themeFont": "large"
+        },
+        "secondarytext": {
+          "type": "text",
+          "value": "2",
+          "dirty": true,
+          "themeFont": "small"
+        },
+        "duration": { "type": "number", "value": 3000, "dirty": true },
+        "gradientFadeCheck": {
+          "type": "checkbox",
+          "value": true,
+          "dirty": false
+        },
+        "segmentSettings": {
+          "type": "group",
+          "value": {
+            "segmentOnOff": { "type": "options", "value": 0, "dirty": false },
+            "segmentFadeIn": {
+              "type": "checkbox",
+              "value": false,
+              "dirty": false
+            },
+            "segmentFadeOut": {
+              "type": "checkbox",
+              "value": false,
+              "dirty": false
+            },
+            "segmentNumber": { "type": "number", "value": "", "dirty": false },
+            "segmentTextColor": {
+              "type": "colorpicker",
+              "value": {
+                "themeColor": "textOnPrimary",
+                "color": [1, 1, 1, 1],
+                "overrideThemeColor": false
+              },
+              "dirty": false
+            },
+            "segmentBoxColor": {
+              "type": "colorpicker",
+              "value": {
+                "themeColor": "primary",
+                "color": [0, 0, 0, 1],
+                "overrideThemeColor": false
+              },
+              "dirty": false
+            }
+          },
+          "dirty": false
+        },
+        "colorSettings": {
+          "type": "group",
+          "value": {
+            "maintextColor": {
+              "type": "colorpicker",
+              "value": {
+                "themeColor": "white",
+                "color": [1, 1, 1, 1],
+                "overrideThemeColor": false
+              },
+              "dirty": false
+            },
+            "secondarytextColor": {
+              "type": "colorpicker",
+              "value": {
+                "themeColor": "white",
+                "color": [1, 1, 1, 1],
+                "overrideThemeColor": false
+              },
+              "dirty": false
+            }
+          },
+          "dirty": false
+        },
+        "mainAssetStyling": {
+          "type": "group",
+          "value": {
+            "tintParent": {
+              "type": "parent",
+              "value": {
+                "toggled": false,
+                "children": {
+                  "tintFade": {
+                    "type": "fade",
+                    "value": { "in": false, "out": false }
+                  },
+                  "tintColor": {
+                    "type": "colorpicker",
+                    "value": {
+                      "themeColor": "primary",
+                      "color": [0, 0, 0, 1],
+                      "overrideThemeColor": false
+                    }
+                  },
+                  "tintOpacity": { "type": "number", "value": 65 }
+                }
+              }
+            },
+            "filterParent": {
+              "type": "parent",
+              "value": {
+                "toggled": false,
+                "children": {
+                  "filterFade": {
+                    "type": "fade",
+                    "value": { "in": false, "out": false }
+                  },
+                  "filterType": { "type": "options", "value": false },
+                  "filterOpacity": { "type": "number", "value": 100 }
+                }
+              }
+            },
+            "blurParent": {
+              "type": "parent",
+              "value": {
+                "toggled": false,
+                "children": {
+                  "blurFade": {
+                    "type": "fade",
+                    "value": { "in": false, "out": false }
+                  }
+                }
+              }
+            },
+            "monochromeParent": {
+              "type": "parent",
+              "value": {
+                "toggled": false,
+                "children": {
+                  "monochromeFade": {
+                    "type": "fade",
+                    "value": { "in": false, "out": false }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "audioControls": {
+          "type": "group",
+          "value": {
+            "audioControl": {
+              "type": "options",
+              "value": "leave",
+              "dirty": false
+            },
+            "musicAudioLevel": {
+              "type": "number",
+              "value": -12,
+              "dirty": false
+            },
+            "layerAudioLevel": { "type": "number", "value": 0, "dirty": false }
+          },
+          "dirty": false
+        },
+        "logoSettings": {
+          "type": "group",
+          "value": {
+            "showlogo": { "type": "checkbox", "value": true, "dirty": false }
+          },
+          "dirty": false
+        },
+        "experimentalGroup": {
+          "type": "group",
+          "value": {
+            "span1": { "type": "text", "value": "", "dirty": false },
+            "span2": { "type": "text", "value": "", "dirty": false },
+            "span3": { "type": "text", "value": "", "dirty": false },
+            "highlightColor": {
+              "type": "colorpicker",
+              "value": {
+                "themeColor": "primary",
+                "color": [0, 0, 0, 1],
+                "overrideThemeColor": false
+              },
+              "dirty": false
+            }
+          },
+          "dirty": false
+        },
+        "gradientFadeColor": {
+          "type": "color",
+          "value": [0, 0, 0, 1],
+          "themeColor": "gradientFade"
+        }
+      },
+      "position": 1,
+      "workspace": "5fca36f91318780004db7d84",
+      "history": "5fca36ff1318780004db7f18",
+      "metaData": {
+        "age": [],
+        "articleObjective": [],
+        "articleType": [],
+        "category": [],
+        "commercialIntent": [],
+        "contentTonality": [],
+        "context": [],
+        "development": [],
+        "editorialGeography": [],
+        "editorialIntent": [],
+        "gender": [],
+        "headlineType": [],
+        "messageType": [],
+        "nature": [],
+        "productionType": [],
+        "videoFormat": [],
+        "_id": "5fca36ff1318780004db7f1a",
+        "ref": {
+          "objectId": "5fca36ff1318780004db7f17",
+          "schema": "VideoSlide"
+        },
+        "history": "5fca36ff1318780004db7f1b",
+        "updated": "2020-12-04T13:17:51.157Z",
+        "__v": 0
+      },
+      "created": "2020-12-04T13:17:51.157Z",
+      "updated": "2020-12-04T13:18:20.938Z",
+      "__v": 0
+    }
+  ],
+  "backgrounds": [
+    {
+      "createdBy": {
+        "id": "294",
+        "name": "Daniel Rönnkvist",
+        "login": "danielronnkvist",
+        "email": "daniel.ronnkvist@storykit.io"
+      },
+      "asset": {
+        "createdBy": {
+          "id": "294",
+          "name": "Daniel Rönnkvist",
+          "login": "danielronnkvist",
+          "email": "daniel.ronnkvist@kit.se"
+        },
+        "scaledImages": {
+          "kse": {
+            "_id": "5dbfde057add0c00049cd4c5",
+            "squareSmall": {
+              "_id": "5dbfde057add0c00049cd4c6",
+              "width": "200",
+              "height": "200",
+              "url": "https://imgix.kitcdn.se/https%3A%2F%2Fdev-static.kitcdn.se%2Fcws%2F2019%2F11%2Fvideoblocks-7096291-2019-11-04-08_14_59.mp4?w=200&h=200&fit=crop&ixlib=js-1.2.0&s=757940f5db0687f07b872cfecd1e44ef"
+            },
+            "squareMedium": {
+              "_id": "5dbfde057add0c00049cd4c7",
+              "width": "400",
+              "height": "400",
+              "url": "https://imgix.kitcdn.se/https%3A%2F%2Fdev-static.kitcdn.se%2Fcws%2F2019%2F11%2Fvideoblocks-7096291-2019-11-04-08_14_59.mp4?w=400&h=400&fit=crop&ixlib=js-1.2.0&s=fbfcbbf659e9b329195071cc7e0803cc"
+            },
+            "large": {
+              "_id": "5dbfde057add0c00049cd4c8",
+              "width": "800",
+              "url": "https://imgix.kitcdn.se/https%3A%2F%2Fdev-static.kitcdn.se%2Fcws%2F2019%2F11%2Fvideoblocks-7096291-2019-11-04-08_14_59.mp4?w=800&ixlib=js-1.2.0&s=439e02c9fad7adb4150bdd063e6f06ce"
+            },
+            "socialKitMat": {
+              "_id": "5dbfde057add0c00049cd4c9",
+              "width": "3200",
+              "height": "1676",
+              "url": "https://imgix.kitcdn.se/https%3A%2F%2Fdev-static.kitcdn.se%2Fcws%2F2019%2F11%2Fvideoblocks-7096291-2019-11-04-08_14_59.mp4?markpad=60&mark=https%3A%2F%2Fstatic.kitcdn.se%2Fresources%2Fimages%2Favatar-kit_mat.png&markalign=bottom%2Cright&markscale=7&w=3200&h=1676&fit=crop&ixlib=js-1.2.0&s=243d3fa73a3ed1cd4033d09d766ab596"
+            },
+            "socialKitBeauty": {
+              "_id": "5dbfde057add0c00049cd4ca",
+              "width": "3200",
+              "height": "1676",
+              "url": "https://imgix.kitcdn.se/https%3A%2F%2Fdev-static.kitcdn.se%2Fcws%2F2019%2F11%2Fvideoblocks-7096291-2019-11-04-08_14_59.mp4?markpad=60&mark=https%3A%2F%2Fstatic.kitcdn.se%2Fresources%2Fimages%2Favatar-kit_beauty.png&markalign=bottom%2Cright&markscale=7&w=3200&h=1676&fit=crop&ixlib=js-1.2.0&s=e3105386e365633fd86f6a145e75727e"
+            },
+            "socialKitMain": {
+              "_id": "5dbfde057add0c00049cd4cb",
+              "width": "3200",
+              "height": "1676",
+              "url": "https://imgix.kitcdn.se/https%3A%2F%2Fdev-static.kitcdn.se%2Fcws%2F2019%2F11%2Fvideoblocks-7096291-2019-11-04-08_14_59.mp4?markpad=60&mark=https%3A%2F%2Fstatic.kitcdn.se%2Fresources%2Fimages%2Favatar-kit_main.png&markalign=bottom%2Cright&markscale=7&w=3200&h=1676&fit=crop&ixlib=js-1.2.0&s=222f799a7a7d94d4944f2a503940721b"
+            },
+            "socialNative": {
+              "_id": "5dbfde057add0c00049cd4cc",
+              "width": "3200",
+              "height": "1676",
+              "url": "https://imgix.kitcdn.se/https%3A%2F%2Fdev-static.kitcdn.se%2Fcws%2F2019%2F11%2Fvideoblocks-7096291-2019-11-04-08_14_59.mp4?markpad=0&mark=https%3A%2F%2Fstatic.kitcdn.se%2Fresources%2Fimages%2Ffeat-native-marker-top-left.png&markalign=top%2Cleft&markscale=20&w=3200&h=1676&fit=crop&ixlib=js-1.2.0&s=4f75b8121ce9bd1ec7c9db91e650e2c5"
+            }
+          }
+        },
+        "dimensions": { "height": 1080, "width": 1920 },
+        "credit": { "link": "", "text": "", "role": "" },
+        "autoplay": false,
+        "converting": false,
+        "externalAsset": true,
+        "videoStudioRendered": false,
+        "previewAsset": false,
+        "slideAsset": false,
+        "slideAssetIds": [],
+        "__t": "JobAsset",
+        "thumbnails": {
+          "0": "https://s3.eu-west-1.amazonaws.com/dev-static.kitcdn.se/cws/2019/12/videoblocks-7096291-2019-11-04-08_14_59_thumb_0_1920x1080.png",
+          "3000": "https://s3.eu-west-1.amazonaws.com/dev-static.kitcdn.se/cws/2020/12/videoblocks-7096291-2019-11-04-08_14_59_thumb_3_1920x1080.png",
+          "7000": "https://s3.eu-west-1.amazonaws.com/dev-static.kitcdn.se/cws/2019/12/videoblocks-7096291-2019-11-04-08_14_59_thumb_7_1920x1080.png",
+          "30000": "https://s3.eu-west-1.amazonaws.com/dev-static.kitcdn.se/cws/2020/11/videoblocks-7096291-2019-11-04-08_14_59_thumb_30_1920x1080.png",
+          "32000": "https://s3.eu-west-1.amazonaws.com/dev-static.kitcdn.se/cws/2020/11/videoblocks-7096291-2019-11-04-08_14_59_thumb_32_1920x1080.png"
+        },
+        "_id": "5dbfde057add0c00049cd4c4",
+        "url": "https://s3.eu-west-1.amazonaws.com/dev-static.kitcdn.se/cws/2019/11/videoblocks-7096291-2019-11-04-08_14_59.mp4",
+        "cdnUrl": "https://dev-static.kitcdn.se/cws/2019/11/videoblocks-7096291-2019-11-04-08_14_59.mp4",
+        "s3Key": "cws/2019/11/videoblocks-7096291-2019-11-04-08_14_59.mp4",
+        "assetType": "video",
+        "extension": "mp4",
+        "originalName": "videoblocks-7096291.mp4",
+        "fileSize": 24399393,
+        "wpId": 140100,
+        "wpMediaId": null,
+        "mimeType": "video/mp4",
+        "previewUrl": "https://imgix.kitcdn.se/https%3A%2F%2Fdev-static.kitcdn.se%2Fcws%2F2019%2F11%2Fvideoblocks-7096291-2019-11-04-08_14_59_thumb_0_1920x1080.png?w=540&h=540&fm=jpg&ixlib=js-1.2.0&s=19d1370c24b6754b365295b5e0f8eaa2",
+        "brand": null,
+        "externalAssetProvider": "videoblocks",
+        "history": "5dbfde057add0c00049cd4cd",
+        "metaData": "5dbfde057add0c00049cd4cf",
+        "created": "2019-11-04T08:15:01.605Z",
+        "updated": "2020-12-04T13:18:28.754Z",
+        "__v": 0,
+        "duration": 35067,
+        "frameRate": 30,
+        "thumbnail": "5dbfde087add0c00049cd4d2",
+        "job": "5dbad37f79a2520004fd7a85"
+      },
+      "inPoint": 0,
+      "_id": "5fca36fb1318780004db7f05",
+      "workspace": "5fca36f91318780004db7d84",
+      "definition": {
+        "s3location": {
+          "square": "s3://kit-videostudio-dev/background/background_1-1.zip",
+          "landscape": "s3://kit-videostudio-dev/background/background_16-9.zip",
+          "portrait": "s3://kit-videostudio-dev/background/background_9-16.zip"
+        },
+        "_id": "5cbf7d1a27b57857f1d06998",
+        "variables": {
+          "colorSettings": {
+            "type": "group",
+            "label": "Color settings",
+            "value": {
+              "canvasColor": {
+                "label": "Canvas color",
+                "hint": "Set the color of the slide canvas.",
+                "type": "colorpicker",
+                "value": {
+                  "themeColor": "black",
+                  "color": [0, 0, 0, 1],
+                  "overrideThemeColor": false
+                }
+              }
+            }
+          },
+          "slideSettings": {
+            "type": "group",
+            "label": "Credit",
+            "value": {
+              "showcredit": {
+                "label": "Show main asset credit",
+                "hint": "Set the visibility for the main asset credit.",
+                "value": true,
+                "type": "checkbox"
+              }
+            }
+          },
+          "mainAssetBehavior": {
+            "type": "group",
+            "label": "Main asset behavior",
+            "value": {
+              "backXpos": {
+                "label": "X-position",
+                "hint": "Set the x-position of your main asset: Images and videos.",
+                "type": "options",
+                "validation": { "required": true },
+                "value": 1,
+                "options": [
+                  { "label": "Left", "value": 0 },
+                  { "label": "Center", "value": 1 },
+                  { "label": "Right", "value": 2 }
+                ]
+              },
+              "backYpos": {
+                "label": "Y-position",
+                "hint": "Set the y-position of your main asset: Images and videos.",
+                "type": "options",
+                "validation": { "required": true },
+                "value": 1,
+                "options": [
+                  {
+                    "label": "Top",
+                    "hint": "The background will be top-positioned.",
+                    "value": 0
+                  },
+                  {
+                    "label": "Center",
+                    "hint": "The background will be centered on the Y-axis.",
+                    "value": 1
+                  },
+                  {
+                    "label": "Bottom",
+                    "hint": "The background will be bottom-positioned.",
+                    "value": 2
+                  }
+                ]
+              },
+              "behaviorCheck": {
+                "label": "Image animation",
+                "hint": "Set animation behavior for your main image.",
+                "type": "options",
+                "validation": { "required": true },
+                "value": 1,
+                "options": [
+                  { "label": "No animation", "value": 0 },
+                  { "label": "Scale & Wiggle", "value": 1 },
+                  { "label": "Scale Up", "value": 2 },
+                  { "label": "Scale Down", "value": 3 },
+                  { "label": "Pan", "value": 4 }
+                ]
+              },
+              "rotateCheck": {
+                "label": "Rotate",
+                "hint": "",
+                "value": false,
+                "type": "checkbox"
+              },
+              "animateVideo": {
+                "label": "Animate Video Asset",
+                "hint": "",
+                "value": false,
+                "type": "checkbox"
+              },
+              "advancedBehaviorSettings": {
+                "label": "Properties",
+                "hint": "Properties for Main Asset Behavior",
+                "type": "parent",
+                "value": {
+                  "toggled": false,
+                  "children": {
+                    "startScaleVal": {
+                      "label": "Asset Scale",
+                      "hint": "",
+                      "value": 100,
+                      "type": "number",
+                      "validation": {
+                        "min": 100,
+                        "max": 200,
+                        "required": true
+                      },
+                      "slider": true,
+                      "step": 1
+                    },
+                    "flipX": {
+                      "label": "Flip asset horizontally",
+                      "hint": "The main asset will be mirrored on the X-axis.",
+                      "value": false,
+                      "type": "checkbox"
+                    },
+                    "flipY": {
+                      "label": "Flip asset vertically",
+                      "hint": "The main asset will be mirrored on the Y-axis.",
+                      "value": false,
+                      "type": "checkbox"
+                    },
+                    "bounceAnimation": {
+                      "label": "Animation Bounce",
+                      "hint": "",
+                      "value": false,
+                      "type": "checkbox"
+                    },
+                    "bounceAnimationPosition": {
+                      "label": "Animation Bounce Position",
+                      "hint": "",
+                      "value": 50,
+                      "type": "number",
+                      "validation": { "min": 0, "max": 100, "required": true },
+                      "slider": true,
+                      "step": 1
+                    },
+                    "maxScaleVal": {
+                      "label": "Max scale",
+                      "hint": "",
+                      "value": 130,
+                      "type": "number",
+                      "validation": {
+                        "min": 100,
+                        "max": 200,
+                        "required": true
+                      },
+                      "slider": true,
+                      "step": 1
+                    },
+                    "maxScaleCheck": {
+                      "label": "Force Max Scale",
+                      "hint": "",
+                      "value": false,
+                      "type": "checkbox"
+                    },
+                    "panStartPosition": {
+                      "label": "Pan Start Position",
+                      "hint": "",
+                      "value": 0,
+                      "type": "number",
+                      "validation": { "min": 0, "max": 100, "required": true },
+                      "slider": true,
+                      "step": 1
+                    },
+                    "panEndPosition": {
+                      "label": "Pan End Position",
+                      "hint": "",
+                      "value": 100,
+                      "type": "number",
+                      "validation": { "min": 0, "max": 100, "required": true },
+                      "slider": true,
+                      "step": 1
+                    },
+                    "rotationStartVal": {
+                      "label": "Rotation Start Angle",
+                      "hint": "",
+                      "value": 0,
+                      "type": "number",
+                      "validation": { "min": -90, "max": 90, "required": true }
+                    },
+                    "rotationEndVal": {
+                      "label": "Rotation End Angle",
+                      "hint": "",
+                      "value": 3,
+                      "type": "number",
+                      "validation": { "min": -90, "max": 90, "required": true }
+                    },
+                    "bounceRotation": {
+                      "label": "Rotation Bounce",
+                      "hint": "",
+                      "value": false,
+                      "type": "checkbox"
+                    },
+                    "bounceRotationPosition": {
+                      "label": "Rotation Bounce Position",
+                      "hint": "",
+                      "value": 50,
+                      "type": "number",
+                      "validation": { "min": 0, "max": 100, "required": true },
+                      "slider": true,
+                      "step": 1
+                    }
+                  }
+                },
+                "togglePositiveLabel": "Visible",
+                "toggleNegativeLabel": "Hidden"
+              }
+            },
+            "advancedBehaviorSettings": { "toggleNegativeLabel": "Hide" }
+          }
+        },
+        "displayName": "_default_definition"
+      },
+      "variables": {
+        "colorSettings": {
+          "type": "group",
+          "value": {
+            "canvasColor": {
+              "type": "colorpicker",
+              "value": {
+                "themeColor": "black",
+                "color": [0, 0, 0, 1],
+                "overrideThemeColor": false
+              }
+            }
+          }
+        },
+        "slideSettings": {
+          "type": "group",
+          "value": { "showcredit": { "type": "checkbox", "value": true } }
+        },
+        "mainAssetBehavior": {
+          "type": "group",
+          "value": {
+            "backXpos": { "type": "options", "value": 1 },
+            "backYpos": { "type": "options", "value": 1 },
+            "behaviorCheck": { "type": "options", "value": 1 },
+            "rotateCheck": { "type": "checkbox", "value": false },
+            "animateVideo": { "type": "checkbox", "value": false },
+            "advancedBehaviorSettings": {
+              "type": "parent",
+              "value": {
+                "toggled": false,
+                "children": {
+                  "startScaleVal": { "type": "number", "value": 100 },
+                  "flipX": { "type": "checkbox", "value": false },
+                  "flipY": { "type": "checkbox", "value": false },
+                  "bounceAnimation": { "type": "checkbox", "value": false },
+                  "bounceAnimationPosition": { "type": "number", "value": 50 },
+                  "maxScaleVal": { "type": "number", "value": 130 },
+                  "maxScaleCheck": { "type": "checkbox", "value": false },
+                  "panStartPosition": { "type": "number", "value": 0 },
+                  "panEndPosition": { "type": "number", "value": 100 },
+                  "rotationStartVal": { "type": "number", "value": 0 },
+                  "rotationEndVal": { "type": "number", "value": 3 },
+                  "bounceRotation": { "type": "checkbox", "value": false },
+                  "bounceRotationPosition": { "type": "number", "value": 50 }
+                }
+              }
+            }
+          }
+        }
+      },
+      "history": "5fca36fb1318780004db7f06",
+      "created": "2020-12-04T13:17:47.486Z",
+      "updated": "2020-12-04T13:18:06.577Z",
+      "__v": 0
+    }
+  ],
+  "sharedProperties": [
+    {
+      "createdBy": {
+        "id": "294",
+        "name": "Daniel Rönnkvist",
+        "login": "danielronnkvist",
+        "email": "daniel.ronnkvist@storykit.io"
+      },
+      "_id": "5fca36fb1318780004db7f08",
+      "workspace": "5fca36f91318780004db7d84",
+      "background": "5fca36fb1318780004db7f05",
+      "definition": {
+        "_id": "5cbf7d1a27b57857f1d06997",
+        "displayName": "_default_definition",
+        "variables": {
+          "mainAssetStyling": {
+            "type": "group",
+            "label": "Main Asset Styling",
+            "slideLabel": "Main Asset Styling (slide specific)",
+            "groupLabel": "Main Asset Styling",
+            "value": {
+              "tintParent": {
+                "label": "Tint",
+                "hint": "Apply a tint that covers the slide. Choose behavior, color and opacity below.",
+                "slideLabel": "Slide Tint",
+                "groupLabel": "Group Tint",
+                "slideHint": "Turn Tint on or off for the slide.",
+                "groupHint": "Turn Tint on or off for the group.",
+                "type": "parent",
+                "value": {
+                  "toggled": false,
+                  "children": {
+                    "tintFade": {
+                      "label": "Tint Fade",
+                      "hint": "The tint effect fades in at the beginning of the slide.",
+                      "slideLabel": "Fade",
+                      "groupLabel": "Fade",
+                      "slideHint": "Control Tint Fade behavior for the slide: Fade in at the start of and/or fade out at the end of the slide.",
+                      "groupHint": "Control Tint Fade behavior for the group: Fade in on the first and/or out on the last slide in the group.",
+                      "value": { "in": false, "out": false },
+                      "type": "fade"
+                    },
+                    "tintColor": {
+                      "label": "Tint Color",
+                      "hint": "Set the color of the tint.",
+                      "slideLabel": "Color",
+                      "groupLabel": "Color",
+                      "slideHint": "Set Tint Color for the slide.",
+                      "groupHint": "Set Tint Color for the group.",
+                      "type": "colorpicker",
+                      "value": {
+                        "themeColor": "darken",
+                        "color": [0, 0, 0, 1],
+                        "overrideThemeColor": false
+                      }
+                    },
+                    "tintOpacity": {
+                      "label": "Tint opacity",
+                      "hint": "Set the opacity of the tint.",
+                      "slideLabel": "Opacity",
+                      "groupLabel": "Opacity",
+                      "slideHint": "Adjust Tint Opacity for the slide.",
+                      "groupHint": "Adjust Tint Opacity for the group.",
+                      "value": 65,
+                      "type": "number",
+                      "validation": { "min": 0, "max": 100, "required": true },
+                      "slider": true,
+                      "step": 1
+                    }
+                  }
+                }
+              },
+              "duotoneParent": {
+                "label": "Slide Duotone",
+                "slideLabel": "Slide Duotone",
+                "groupLabel": "Group Duotone",
+                "slideHint": "Apply a duotone effect to your asset. Choose behavior, colors and intensity below.",
+                "groupHint": "Apply a duotone effect to your asset. Choose behavior, colors and intensity below.",
+                "type": "parent",
+                "value": {
+                  "toggled": false,
+                  "children": {
+                    "duotoneFade": {
+                      "label": "Fade",
+                      "slideLabel": "Fade",
+                      "groupLabel": "Fade",
+                      "slideHint": "Control Duotone Fade behavior for the slide: Fade in at the start of and/or fade out at the end of the slide.",
+                      "groupHint": "Control Duotone Fade behavior for the group: Fade in on the first and/or out on the last slide in the group.",
+                      "value": { "in": false, "out": false },
+                      "type": "fade"
+                    },
+                    "duotoneHighlightsColor": {
+                      "label": "Highlights Color",
+                      "slideLabel": "Highlights Color",
+                      "groupLabel": "Highlights Color",
+                      "slideHint": "Set the color of the Highlights (replacement for \"white\").",
+                      "groupHint": "Set the color of the Highlights (replacement for \"white\").",
+                      "type": "colorpicker",
+                      "value": {
+                        "themeColor": "textOnPrimary",
+                        "color": [1, 1, 1, 1],
+                        "overrideThemeColor": false
+                      }
+                    },
+                    "duotoneShadowsColor": {
+                      "label": "Shadows Color",
+                      "slideLabel": "Shadows Color",
+                      "groupLabel": "Shadows Color",
+                      "slideHint": "Set the color of the Shadowns (replacement for \"black\").",
+                      "groupHint": "Set the color of the Shadowns (replacement for \"black\").",
+                      "type": "colorpicker",
+                      "value": {
+                        "themeColor": "primary",
+                        "color": [0, 0, 0, 1],
+                        "overrideThemeColor": false
+                      }
+                    },
+                    "duotoneOpacity": {
+                      "label": "Opacity",
+                      "slideLabel": "Opacity",
+                      "groupLabel": "Opacity",
+                      "slideHint": "Set the opacity of the Duotone effect.",
+                      "groupHint": "Set the opacity of the Duotone effect.",
+                      "value": 100,
+                      "type": "number",
+                      "validation": { "min": 0, "max": 100, "required": true },
+                      "slider": true,
+                      "step": 1
+                    },
+                    "duotoneIntensity": {
+                      "label": "Intensity",
+                      "slideLabel": "Intensity",
+                      "groupLabel": "Intensity",
+                      "slideHint": "Set the intensity of the Duotone effect – ie how much contrast it has.",
+                      "groupHint": "Set the intensity of the Duotone effect – ie how much contrast it has.",
+                      "type": "options",
+                      "value": 2,
+                      "validation": { "required": true },
+                      "options": [
+                        { "label": "Low", "value": 0 },
+                        { "label": "Medium", "value": 1 },
+                        { "label": "High", "value": 2 }
+                      ]
+                    }
+                  }
+                }
+              },
+              "filterParent": {
+                "label": "Filter",
+                "hint": "Apply a filter to give your asset a stylized look. Choose behavior and type below.",
+                "slideLabel": "Slide Filter",
+                "groupLabel": "Group Filter",
+                "slideHint": "Turn Filter on or off for the slide.",
+                "groupHint": "Turn Filter on or off for the group.",
+                "type": "parent",
+                "value": {
+                  "toggled": false,
+                  "children": {
+                    "filterFade": {
+                      "label": "Filter Fade",
+                      "hint": "The filter effect fades in at the beginning of the slide.",
+                      "slideLabel": "Fade",
+                      "groupLabel": "Fade",
+                      "slideHint": "Control Filter Fade behavior for the slide: Fade in at the start of and/or fade out at the end of the slide.",
+                      "groupHint": "Control Filter Fade behavior for the group: Fade in on the first and/or out on the last slide in the group.",
+                      "value": { "in": false, "out": false },
+                      "type": "fade"
+                    },
+                    "filterType": {
+                      "label": "Filter type",
+                      "hint": "Set filter type.",
+                      "slideLabel": "Type",
+                      "groupLabel": "Type",
+                      "slideHint": "Set Filter Type for the slide.",
+                      "groupHint": "Set Filter Type for the group.",
+                      "type": "options",
+                      "value": false,
+                      "validation": { "required": true },
+                      "options": [
+                        { "label": "#nofilter", "value": false },
+                        { "label": "1 - Aspen", "value": "1_aspen" },
+                        { "label": "2 - Ava", "value": "2_ava" },
+                        {
+                          "label": "3 - Bakersfield",
+                          "value": "3_bakersfield"
+                        },
+                        { "label": "4 - Blender", "value": "4_blender" },
+                        { "label": "5 - Byers", "value": "5_byers" },
+                        { "label": "6 - Chemical", "value": "6_chemical" },
+                        { "label": "7 - Cinedrama", "value": "7_cinedrama" },
+                        { "label": "8 - Darkroom", "value": "8_darkroom" },
+                        { "label": "9 - Django", "value": "9_django" },
+                        { "label": "10 - F-8700", "value": "10_F8700" },
+                        { "label": "11 - Faded", "value": "11_faded" },
+                        { "label": "12 - Folger", "value": "12_folger" },
+                        { "label": "13 - Frisco", "value": "13_frisco" },
+                        { "label": "14 - Holga", "value": "14_holga" },
+                        { "label": "15 - Humble", "value": "15_humble" },
+                        { "label": "16 - Korben", "value": "16_korben" },
+                        {
+                          "label": "17 - Lady Celsius",
+                          "value": "17_lady_celsius"
+                        },
+                        { "label": "18 - Latefish", "value": "18_latefish" },
+                        {
+                          "label": "19 - Metropolis",
+                          "value": "19_metropolis"
+                        },
+                        { "label": "20 - Quill", "value": "20_quill" },
+                        { "label": "21 - Reeve", "value": "21_reeve" },
+                        { "label": "22 - Thoreau", "value": "22_thoreau" },
+                        { "label": "23 - Weissbier", "value": "23_weissbier" },
+                        { "label": "24 - Woodward", "value": "24_woodward" },
+                        { "label": "25 - Zeke", "value": "25_zeke" }
+                      ]
+                    },
+                    "filterOpacity": {
+                      "label": "Filter opacity",
+                      "hint": "Set the opacity of the filter.",
+                      "slideLabel": "Opacity",
+                      "groupLabel": "Opacity",
+                      "slideHint": "Adjust Filter Opacity for the slide.",
+                      "groupHint": "Adjust Filter Opacity for the group.",
+                      "value": 100,
+                      "type": "number",
+                      "validation": { "min": 0, "max": 100, "required": true },
+                      "slider": true,
+                      "step": 1
+                    }
+                  }
+                }
+              },
+              "monochromeParent": {
+                "label": "Monochrome",
+                "hint": "Apply a monochrome effect to your asset. Choose behavior below.",
+                "slideLabel": "Slide Monochrome",
+                "groupLabel": "Group Monochrome",
+                "slideHint": "Turn Monochrome on or off for the slide.",
+                "groupHint": "Turn Monochrome on or off for the group.",
+                "type": "parent",
+                "value": {
+                  "toggled": false,
+                  "children": {
+                    "monochromeFade": {
+                      "label": "Monochrome Fade",
+                      "hint": "",
+                      "slideLabel": "Fade",
+                      "groupLabel": "Fade",
+                      "slideHint": "Control Monochrome Fade behavior for the slide: Fade in at the start of and/or fade out at the end of the slide.",
+                      "groupHint": "Control Monochrome Fade behavior for the group: Fade in on the first and/or out on the last slide in the group.",
+                      "value": { "in": false, "out": false },
+                      "type": "fade"
+                    }
+                  }
+                }
+              },
+              "blurParent": {
+                "label": "Blur",
+                "hint": "Apply a blur to your asset. Choose behavior below.",
+                "slideLabel": "Slide Blur",
+                "groupLabel": "Group Blur",
+                "slideHint": "Turn Blur on or off for the slide.",
+                "groupHint": "Turn Blur on or off for the group.",
+                "type": "parent",
+                "value": {
+                  "toggled": false,
+                  "children": {
+                    "blurFade": {
+                      "label": "Blur Fade",
+                      "hint": "The blur effect fades in at the beginning of the slide.",
+                      "slideLabel": "Fade",
+                      "groupLabel": "Fade",
+                      "slideHint": "Control Blur Fade behavior for the slide: Fade in at the start of and/or fade out at the end of the slide.",
+                      "groupHint": "Control Blur Fade behavior for the group: Fade in on the first and out on the last slide in the group.",
+                      "value": { "in": false, "out": false },
+                      "type": "fade"
+                    }
+                  }
+                }
+              },
+              "advancedTintParent": {
+                "slideLabel": "Advanced Slide Tint",
+                "groupLabel": "Advanced Group Tint",
+                "slideHint": "Turn Advanced Tint on or off for the slide.",
+                "groupHint": "Turn Advanced Tint on or off for the group.",
+                "type": "parent",
+                "value": {
+                  "toggled": false,
+                  "children": {
+                    "advancedTintInColor": {
+                      "slideLabel": "Start Tint Color",
+                      "groupLabel": "Start Tint Color",
+                      "slideHint": "Set the color of the Start tint.",
+                      "groupHint": "Set the color of the Start tint.",
+                      "type": "colorpicker",
+                      "value": {
+                        "themeColor": "darken",
+                        "color": [0, 0, 0, 1],
+                        "overrideThemeColor": false
+                      }
+                    },
+                    "advancedTintInOpacity": {
+                      "slideLabel": "Start Tint Opacity",
+                      "groupLabel": "Start Tint Opacity",
+                      "slideHint": "Set the opacity of the Start tint.",
+                      "groupHint": "Set the opacity of the Start tint.",
+                      "value": 0,
+                      "type": "number",
+                      "validation": { "min": 0, "max": 100, "required": true },
+                      "slider": true,
+                      "step": 1
+                    },
+                    "advancedTintHoldColor": {
+                      "slideLabel": "Main Tint Color",
+                      "groupLabel": "Main Tint Color",
+                      "slideHint": "Set the color of the Main tint.",
+                      "groupHint": "Set the color of the Main tint.",
+                      "type": "colorpicker",
+                      "value": {
+                        "themeColor": "darken",
+                        "color": [0, 0, 0, 1],
+                        "overrideThemeColor": false
+                      }
+                    },
+                    "advancedTintHoldOpacity": {
+                      "slideLabel": "Main Tint Opacity",
+                      "groupLabel": "Main Tint Opacity",
+                      "slideHint": "Set the opacity of the Main tint.",
+                      "groupHint": "Set the opacity of the Main tint.",
+                      "value": 65,
+                      "type": "number",
+                      "validation": { "min": 0, "max": 100, "required": true },
+                      "slider": true,
+                      "step": 1
+                    },
+                    "advancedTintOutColor": {
+                      "slideLabel": "End Tint Color",
+                      "groupLabel": "End Tint Color",
+                      "slideHint": "Set the color of the End tint.",
+                      "groupHint": "Set the color of the End tint.",
+                      "type": "colorpicker",
+                      "value": {
+                        "themeColor": "darken",
+                        "color": [0, 0, 0, 1],
+                        "overrideThemeColor": false
+                      }
+                    },
+                    "advancedTintOutOpacity": {
+                      "slideLabel": "End Tint Opacity",
+                      "groupLabel": "End Tint Opacity",
+                      "slideHint": "Set the opacity of the End tint.",
+                      "groupHint": "Set the opacity of the End tint.",
+                      "value": 0,
+                      "type": "number",
+                      "validation": { "min": 0, "max": 100, "required": true },
+                      "slider": true,
+                      "step": 1
+                    },
+                    "advancedTintInDuration": {
+                      "slideLabel": "Start-to-main Duration",
+                      "groupLabel": "Start-to-main Duration",
+                      "slideHint": "Adjust the time for the transition between the Start tint and the Main tint – color and opacity.",
+                      "groupHint": "Adjust the time for the transition between the Start tint and the Main tint – color and opacity.",
+                      "value": 670,
+                      "type": "number"
+                    },
+                    "advancedTintOutDuration": {
+                      "slideLabel": "Main-to-end Duration",
+                      "groupLabel": "Main-to-end Duration",
+                      "slideHint": "Adjust the time for the transition between the Main tint and the End tint – color and opacity.",
+                      "groupHint": "Adjust the time for the transition between the Main tint and the End tint – color and opacity.",
+                      "value": 670,
+                      "type": "number"
+                    },
+                    "advancedTintEaseIn": {
+                      "slideLabel": "Start-to-main Easing",
+                      "groupLabel": "Start-to-main Easing",
+                      "slideHint": "When checked, an easing curve is applied on the transition. When unchecked, the transition is linear.",
+                      "groupHint": "When checked, an easing curve is applied on the transition. When unchecked, the transition is linear.",
+                      "value": true,
+                      "type": "checkbox"
+                    },
+                    "advancedTintEaseOut": {
+                      "slideLabel": "Main-to-end Easing",
+                      "groupLabel": "Main-to-end Easing",
+                      "slideHint": "When checked, an easing curve is applied on the transition. When unchecked, the transition is linear.",
+                      "groupHint": "When checked, an easing curve is applied on the transition. When unchecked, the transition is linear.",
+                      "value": true,
+                      "type": "checkbox"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "history": "5fca36fb1318780004db7f09",
+      "created": "2020-12-04T13:17:47.566Z",
+      "updated": "2020-12-04T13:17:47.566Z",
+      "__v": 0
+    }
+  ],
+  "bgDefaultMainAssetStyling": {
+    "type": "group",
+    "label": "Main Asset Styling",
+    "slideLabel": "Main Asset Styling (slide specific)",
+    "groupLabel": "Main Asset Styling",
+    "value": {
+      "tintParent": {
+        "label": "Tint",
+        "hint": "Apply a tint that covers the slide. Choose behavior, color and opacity below.",
+        "slideLabel": "Slide Tint",
+        "groupLabel": "Group Tint",
+        "slideHint": "Turn Tint on or off for the slide.",
+        "groupHint": "Turn Tint on or off for the group.",
+        "type": "parent",
+        "value": {
+          "toggled": false,
+          "children": {
+            "tintFade": {
+              "label": "Tint Fade",
+              "hint": "The tint effect fades in at the beginning of the slide.",
+              "slideLabel": "Fade",
+              "groupLabel": "Fade",
+              "slideHint": "Control Tint Fade behavior for the slide: Fade in at the start of and/or fade out at the end of the slide.",
+              "groupHint": "Control Tint Fade behavior for the group: Fade in on the first and/or out on the last slide in the group.",
+              "value": { "in": false, "out": false },
+              "type": "fade"
+            },
+            "tintColor": {
+              "label": "Tint Color",
+              "hint": "Set the color of the tint.",
+              "slideLabel": "Color",
+              "groupLabel": "Color",
+              "slideHint": "Set Tint Color for the slide.",
+              "groupHint": "Set Tint Color for the group.",
+              "type": "colorpicker",
+              "value": {
+                "themeColor": "darken",
+                "color": [0, 0, 0, 1],
+                "overrideThemeColor": false
+              }
+            },
+            "tintOpacity": {
+              "label": "Tint opacity",
+              "hint": "Set the opacity of the tint.",
+              "slideLabel": "Opacity",
+              "groupLabel": "Opacity",
+              "slideHint": "Adjust Tint Opacity for the slide.",
+              "groupHint": "Adjust Tint Opacity for the group.",
+              "value": 65,
+              "type": "number",
+              "validation": { "min": 0, "max": 100, "required": true },
+              "slider": true,
+              "step": 1
+            }
+          }
+        }
+      },
+      "duotoneParent": {
+        "label": "Slide Duotone",
+        "slideLabel": "Slide Duotone",
+        "groupLabel": "Group Duotone",
+        "slideHint": "Apply a duotone effect to your asset. Choose behavior, colors and intensity below.",
+        "groupHint": "Apply a duotone effect to your asset. Choose behavior, colors and intensity below.",
+        "type": "parent",
+        "value": {
+          "toggled": false,
+          "children": {
+            "duotoneFade": {
+              "label": "Fade",
+              "slideLabel": "Fade",
+              "groupLabel": "Fade",
+              "slideHint": "Control Duotone Fade behavior for the slide: Fade in at the start of and/or fade out at the end of the slide.",
+              "groupHint": "Control Duotone Fade behavior for the group: Fade in on the first and/or out on the last slide in the group.",
+              "value": { "in": false, "out": false },
+              "type": "fade"
+            },
+            "duotoneHighlightsColor": {
+              "label": "Highlights Color",
+              "slideLabel": "Highlights Color",
+              "groupLabel": "Highlights Color",
+              "slideHint": "Set the color of the Highlights (replacement for \"white\").",
+              "groupHint": "Set the color of the Highlights (replacement for \"white\").",
+              "type": "colorpicker",
+              "value": {
+                "themeColor": "textOnPrimary",
+                "color": [1, 1, 1, 1],
+                "overrideThemeColor": false
+              }
+            },
+            "duotoneShadowsColor": {
+              "label": "Shadows Color",
+              "slideLabel": "Shadows Color",
+              "groupLabel": "Shadows Color",
+              "slideHint": "Set the color of the Shadowns (replacement for \"black\").",
+              "groupHint": "Set the color of the Shadowns (replacement for \"black\").",
+              "type": "colorpicker",
+              "value": {
+                "themeColor": "primary",
+                "color": [0, 0, 0, 1],
+                "overrideThemeColor": false
+              }
+            },
+            "duotoneOpacity": {
+              "label": "Opacity",
+              "slideLabel": "Opacity",
+              "groupLabel": "Opacity",
+              "slideHint": "Set the opacity of the Duotone effect.",
+              "groupHint": "Set the opacity of the Duotone effect.",
+              "value": 100,
+              "type": "number",
+              "validation": { "min": 0, "max": 100, "required": true },
+              "slider": true,
+              "step": 1
+            },
+            "duotoneIntensity": {
+              "label": "Intensity",
+              "slideLabel": "Intensity",
+              "groupLabel": "Intensity",
+              "slideHint": "Set the intensity of the Duotone effect – ie how much contrast it has.",
+              "groupHint": "Set the intensity of the Duotone effect – ie how much contrast it has.",
+              "type": "options",
+              "value": 2,
+              "validation": { "required": true },
+              "options": [
+                { "label": "Low", "value": 0 },
+                { "label": "Medium", "value": 1 },
+                { "label": "High", "value": 2 }
+              ]
+            }
+          }
+        }
+      },
+      "filterParent": {
+        "label": "Filter",
+        "hint": "Apply a filter to give your asset a stylized look. Choose behavior and type below.",
+        "slideLabel": "Slide Filter",
+        "groupLabel": "Group Filter",
+        "slideHint": "Turn Filter on or off for the slide.",
+        "groupHint": "Turn Filter on or off for the group.",
+        "type": "parent",
+        "value": {
+          "toggled": false,
+          "children": {
+            "filterFade": {
+              "label": "Filter Fade",
+              "hint": "The filter effect fades in at the beginning of the slide.",
+              "slideLabel": "Fade",
+              "groupLabel": "Fade",
+              "slideHint": "Control Filter Fade behavior for the slide: Fade in at the start of and/or fade out at the end of the slide.",
+              "groupHint": "Control Filter Fade behavior for the group: Fade in on the first and/or out on the last slide in the group.",
+              "value": { "in": false, "out": false },
+              "type": "fade"
+            },
+            "filterType": {
+              "label": "Filter type",
+              "hint": "Set filter type.",
+              "slideLabel": "Type",
+              "groupLabel": "Type",
+              "slideHint": "Set Filter Type for the slide.",
+              "groupHint": "Set Filter Type for the group.",
+              "type": "options",
+              "value": false,
+              "validation": { "required": true },
+              "options": [
+                { "label": "#nofilter", "value": false },
+                { "label": "1 - Aspen", "value": "1_aspen" },
+                { "label": "2 - Ava", "value": "2_ava" },
+                { "label": "3 - Bakersfield", "value": "3_bakersfield" },
+                { "label": "4 - Blender", "value": "4_blender" },
+                { "label": "5 - Byers", "value": "5_byers" },
+                { "label": "6 - Chemical", "value": "6_chemical" },
+                { "label": "7 - Cinedrama", "value": "7_cinedrama" },
+                { "label": "8 - Darkroom", "value": "8_darkroom" },
+                { "label": "9 - Django", "value": "9_django" },
+                { "label": "10 - F-8700", "value": "10_F8700" },
+                { "label": "11 - Faded", "value": "11_faded" },
+                { "label": "12 - Folger", "value": "12_folger" },
+                { "label": "13 - Frisco", "value": "13_frisco" },
+                { "label": "14 - Holga", "value": "14_holga" },
+                { "label": "15 - Humble", "value": "15_humble" },
+                { "label": "16 - Korben", "value": "16_korben" },
+                { "label": "17 - Lady Celsius", "value": "17_lady_celsius" },
+                { "label": "18 - Latefish", "value": "18_latefish" },
+                { "label": "19 - Metropolis", "value": "19_metropolis" },
+                { "label": "20 - Quill", "value": "20_quill" },
+                { "label": "21 - Reeve", "value": "21_reeve" },
+                { "label": "22 - Thoreau", "value": "22_thoreau" },
+                { "label": "23 - Weissbier", "value": "23_weissbier" },
+                { "label": "24 - Woodward", "value": "24_woodward" },
+                { "label": "25 - Zeke", "value": "25_zeke" }
+              ]
+            },
+            "filterOpacity": {
+              "label": "Filter opacity",
+              "hint": "Set the opacity of the filter.",
+              "slideLabel": "Opacity",
+              "groupLabel": "Opacity",
+              "slideHint": "Adjust Filter Opacity for the slide.",
+              "groupHint": "Adjust Filter Opacity for the group.",
+              "value": 100,
+              "type": "number",
+              "validation": { "min": 0, "max": 100, "required": true },
+              "slider": true,
+              "step": 1
+            }
+          }
+        }
+      },
+      "monochromeParent": {
+        "label": "Monochrome",
+        "hint": "Apply a monochrome effect to your asset. Choose behavior below.",
+        "slideLabel": "Slide Monochrome",
+        "groupLabel": "Group Monochrome",
+        "slideHint": "Turn Monochrome on or off for the slide.",
+        "groupHint": "Turn Monochrome on or off for the group.",
+        "type": "parent",
+        "value": {
+          "toggled": false,
+          "children": {
+            "monochromeFade": {
+              "label": "Monochrome Fade",
+              "hint": "",
+              "slideLabel": "Fade",
+              "groupLabel": "Fade",
+              "slideHint": "Control Monochrome Fade behavior for the slide: Fade in at the start of and/or fade out at the end of the slide.",
+              "groupHint": "Control Monochrome Fade behavior for the group: Fade in on the first and/or out on the last slide in the group.",
+              "value": { "in": false, "out": false },
+              "type": "fade"
+            }
+          }
+        }
+      },
+      "blurParent": {
+        "label": "Blur",
+        "hint": "Apply a blur to your asset. Choose behavior below.",
+        "slideLabel": "Slide Blur",
+        "groupLabel": "Group Blur",
+        "slideHint": "Turn Blur on or off for the slide.",
+        "groupHint": "Turn Blur on or off for the group.",
+        "type": "parent",
+        "value": {
+          "toggled": false,
+          "children": {
+            "blurFade": {
+              "label": "Blur Fade",
+              "hint": "The blur effect fades in at the beginning of the slide.",
+              "slideLabel": "Fade",
+              "groupLabel": "Fade",
+              "slideHint": "Control Blur Fade behavior for the slide: Fade in at the start of and/or fade out at the end of the slide.",
+              "groupHint": "Control Blur Fade behavior for the group: Fade in on the first and out on the last slide in the group.",
+              "value": { "in": false, "out": false },
+              "type": "fade"
+            }
+          }
+        }
+      },
+      "advancedTintParent": {
+        "slideLabel": "Advanced Slide Tint",
+        "groupLabel": "Advanced Group Tint",
+        "slideHint": "Turn Advanced Tint on or off for the slide.",
+        "groupHint": "Turn Advanced Tint on or off for the group.",
+        "type": "parent",
+        "value": {
+          "toggled": false,
+          "children": {
+            "advancedTintInColor": {
+              "slideLabel": "Start Tint Color",
+              "groupLabel": "Start Tint Color",
+              "slideHint": "Set the color of the Start tint.",
+              "groupHint": "Set the color of the Start tint.",
+              "type": "colorpicker",
+              "value": {
+                "themeColor": "darken",
+                "color": [0, 0, 0, 1],
+                "overrideThemeColor": false
+              }
+            },
+            "advancedTintInOpacity": {
+              "slideLabel": "Start Tint Opacity",
+              "groupLabel": "Start Tint Opacity",
+              "slideHint": "Set the opacity of the Start tint.",
+              "groupHint": "Set the opacity of the Start tint.",
+              "value": 0,
+              "type": "number",
+              "validation": { "min": 0, "max": 100, "required": true },
+              "slider": true,
+              "step": 1
+            },
+            "advancedTintHoldColor": {
+              "slideLabel": "Main Tint Color",
+              "groupLabel": "Main Tint Color",
+              "slideHint": "Set the color of the Main tint.",
+              "groupHint": "Set the color of the Main tint.",
+              "type": "colorpicker",
+              "value": {
+                "themeColor": "darken",
+                "color": [0, 0, 0, 1],
+                "overrideThemeColor": false
+              }
+            },
+            "advancedTintHoldOpacity": {
+              "slideLabel": "Main Tint Opacity",
+              "groupLabel": "Main Tint Opacity",
+              "slideHint": "Set the opacity of the Main tint.",
+              "groupHint": "Set the opacity of the Main tint.",
+              "value": 65,
+              "type": "number",
+              "validation": { "min": 0, "max": 100, "required": true },
+              "slider": true,
+              "step": 1
+            },
+            "advancedTintOutColor": {
+              "slideLabel": "End Tint Color",
+              "groupLabel": "End Tint Color",
+              "slideHint": "Set the color of the End tint.",
+              "groupHint": "Set the color of the End tint.",
+              "type": "colorpicker",
+              "value": {
+                "themeColor": "darken",
+                "color": [0, 0, 0, 1],
+                "overrideThemeColor": false
+              }
+            },
+            "advancedTintOutOpacity": {
+              "slideLabel": "End Tint Opacity",
+              "groupLabel": "End Tint Opacity",
+              "slideHint": "Set the opacity of the End tint.",
+              "groupHint": "Set the opacity of the End tint.",
+              "value": 0,
+              "type": "number",
+              "validation": { "min": 0, "max": 100, "required": true },
+              "slider": true,
+              "step": 1
+            },
+            "advancedTintInDuration": {
+              "slideLabel": "Start-to-main Duration",
+              "groupLabel": "Start-to-main Duration",
+              "slideHint": "Adjust the time for the transition between the Start tint and the Main tint – color and opacity.",
+              "groupHint": "Adjust the time for the transition between the Start tint and the Main tint – color and opacity.",
+              "value": 670,
+              "type": "number"
+            },
+            "advancedTintOutDuration": {
+              "slideLabel": "Main-to-end Duration",
+              "groupLabel": "Main-to-end Duration",
+              "slideHint": "Adjust the time for the transition between the Main tint and the End tint – color and opacity.",
+              "groupHint": "Adjust the time for the transition between the Main tint and the End tint – color and opacity.",
+              "value": 670,
+              "type": "number"
+            },
+            "advancedTintEaseIn": {
+              "slideLabel": "Start-to-main Easing",
+              "groupLabel": "Start-to-main Easing",
+              "slideHint": "When checked, an easing curve is applied on the transition. When unchecked, the transition is linear.",
+              "groupHint": "When checked, an easing curve is applied on the transition. When unchecked, the transition is linear.",
+              "value": true,
+              "type": "checkbox"
+            },
+            "advancedTintEaseOut": {
+              "slideLabel": "Main-to-end Easing",
+              "groupLabel": "Main-to-end Easing",
+              "slideHint": "When checked, an easing curve is applied on the transition. When unchecked, the transition is linear.",
+              "groupHint": "When checked, an easing curve is applied on the transition. When unchecked, the transition is linear.",
+              "value": true,
+              "type": "checkbox"
+            }
+          }
+        }
+      }
+    }
+  },
+  "splitFiles": false,
+  "renderId": "5fca372d1318780004db8089",
+  "renderTimeStamp": "1607087917416",
+  "_startTimestamp": 1607087919023,
+  "_totalDuration": 6000,
+  "_slideCount": 2,
+  "localProjectName": "1607087917416_5fca36f91318780004db7d84",
+  "localProjectFolder": "C:\\VideoStudio\\ProjectBase\\1607087917416_5fca36f91318780004db7d84",
+  "localPathForAEProject": "C:\\VideoStudio\\ProjectBase\\1607087917416_5fca36f91318780004db7d84\\1607087917416_5fca36f91318780004db7d84.aep",
+  "width": 1080,
+  "height": 1080
+}

@@ -1,0 +1,10 @@
+{
+  "redis": {
+    "mailbox_queue": "mailbox_queue",
+    "postoffice_queue": "postoffice_queue"
+  },
+  "app": {
+    "cycle_timer": 2500,
+    "port": 80
+  }
+}

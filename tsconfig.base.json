@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "lib": [
+      "es2019"
+    ],
+    "moduleResolution": "node",
+    "allowJs": false,
+    "baseUrl": ".",
+    "sourceMap": true,
+    "inlineSources": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": [
+      "jest",
+      "node"
+    ],
+  },
+}

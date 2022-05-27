@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.base.json",
+  "files": [],
+  "references": [{ "path": "packages/redis" }],
+  "include": ["src/**/*"],
+  "exclude": ["**/*.spec.ts", "node_modules", "dist"],
+  "compilerOptions": {
+    "paths": {
+      "~src/*": ["./src/*"]
+    }
+  }
+}
