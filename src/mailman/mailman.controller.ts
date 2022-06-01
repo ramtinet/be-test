@@ -4,7 +4,7 @@ import { DeliverySystemEnums } from '../postoffice/postoffice.enums'
 import { Mail } from '../types/mail.types'
 import { addElementToList, getElementsFromListAndRemoveList, getLengthOfList} from 'pkg-redis/redis.controller'
 import { REDIS_QUEUES } from '../queue/queue.const';
-import globalVars from './../globalVars';
+import mockRedis from '../mockRedis';
 
 const { MAILBOX, POSTOFFICE } = REDIS_QUEUES;
 
@@ -22,9 +22,8 @@ export default class MailMan {
   }
 
   public static async deliverMailToRecipient(mail: Mail) {
-    console.log("I will be triggered whenever the client should be notified");
     const {recipient} = mail;
-    const {sockets} =  globalVars;
+    const {sockets} =  mockRedis;
     const recipientSocket: Socket = sockets[recipient];
     recipientSocket.emit('INCOMING_MAIL', mail);
   }

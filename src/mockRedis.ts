@@ -1,9 +1,9 @@
 import { Socket } from 'socket.io';
-interface GlobalVars {
+interface MockRedis {
     sockets: Record<string, Socket>,
 }
-const globalVars: GlobalVars = {
+const mockRedis: MockRedis = {
     sockets: {}
 };
 
-export default globalVars;
+export default mockRedis;
