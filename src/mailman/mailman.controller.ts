@@ -8,7 +8,6 @@ import mockRedis from '../mockRedis';
 
 const { MAILBOX, POSTOFFICE } = REDIS_QUEUES;
 
-
 // type GetAndSetFn<T> = (composition: T | undefined) => T | undefined;
 export default class MailMan {
   public static async checkMailBoxAndDeliverToPostOffice() {

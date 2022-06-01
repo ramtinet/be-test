@@ -5,14 +5,14 @@ import socketio, { Socket } from "socket.io";
 import mailRouter from './mailbox/mailbox.router';
 import log from './services/logging.service';
 import cors from "cors";
-import mockRedis from './mockRedis';
+import loginSocketIOController from './login/login.socket.io.controller';
 
 const devOptions = {
   corsOptions: {
     origin: 'http://localhost:3000',
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) can't handle 204
   },
-  socketIOOptions: {
+  socketOptions: {
     cors: {
       origin: "http://localhost:3000"
     }
@@ -25,7 +25,7 @@ export default class Server {
   private static expressApp = express();
   private static http = http.createServer(this.expressApp);
   private static serverInstance: http.Server;
-  public static io = new socketio.Server(this.http, devOptions.socketIOOptions);
+  public static io = new socketio.Server(this.http, devOptions.socketOptions);
   public static socket: Socket;
 
   public static start(): Promise<void> {
@@ -51,11 +51,7 @@ export default class Server {
 
   private static startSocketIO(){
     this.io.on('connection', (socket: Socket) => {
-      socket.on("LOGIN", (data) => {
-        const {name} = data;
-        mockRedis.sockets[name] = socket;
-        socket.emit("LOGIN", {requestFailed: false})
-      })
+      loginSocketIOController(socket, this.io);
       this.socket = socket;
     });
   }
