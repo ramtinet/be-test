@@ -5,6 +5,7 @@ import { SendMail, GetMail } from '../types/mail.types'
 
 const router = express.Router();
 
+// /mail
 const POST_mail: SendMail = (req, res, next) => {
   Mailbox.sendMail(req.body)
     .then((data) => {
@@ -13,6 +14,7 @@ const POST_mail: SendMail = (req, res, next) => {
     .catch((err: Error) => next(err));
 }
 
+// /mail/:mailbox
 const GET_mail: GetMail = (req, res, next) => {
   Mailbox.checkMails(req.params.mailbox)
     .then((data) => {

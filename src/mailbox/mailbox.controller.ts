@@ -20,7 +20,6 @@ export default class MailBox {
 
 export const addMailToMailbox = async (mail: Mail): Promise<Mail> => {
   validateMail(mail);
-
   await addElementToList<Mail>(mail, REDIS_QUEUES.MAILBOX);
   return mail;
 }

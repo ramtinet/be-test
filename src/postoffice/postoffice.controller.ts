@@ -1,11 +1,21 @@
 import EventEmitter from 'events';
-
+import { addElementToList, getElementsFromListAndRemoveList, getLengthOfList} from 'pkg-redis/redis.controller'
 import { DeliverySystemEnums } from './postoffice.enums';
 import { Mail } from '../types/mail.types';
+import { REDIS_QUEUES } from '../queue/queue.const'
+const { POSTOFFICE } = REDIS_QUEUES;
 
 export default class PostOffice {
   public static async distributeMailsFromPostOffice() {
-    // To be implemented
+    const length = await getLengthOfList(POSTOFFICE);
+    if(length > 0){
+      const incomingPostOfficeQueue: Mail[] = await getElementsFromListAndRemoveList(POSTOFFICE);
+      incomingPostOfficeQueue.forEach(mail => {
+        const {recipient} = mail;
+        addElementToList<Mail>(mail, recipient);
+        DeliverySystem.triggerMailManDelivery(mail);
+      })
+    }
   }
 }
 
