@@ -30,8 +30,10 @@ export default class Server {
 
   public static start(): Promise<void> {
     this.expressApp.use(cors(devOptions.corsOptions));
+    this.expressApp.use(express.static('./public'));
     this.addRoutes();
     this.startSocketIO();
+
 
     return new Promise((resolve) => {
       this.serverInstance = this.http.listen(PORT, () => {
