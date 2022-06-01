@@ -5,6 +5,7 @@ import socketio, { Socket } from "socket.io";
 import mailRouter from './mailbox/mailbox.router';
 import log from './services/logging.service';
 import cors from "cors";
+import globalVars from './globalVars';
 
 const devOptions = {
   corsOptions: {
@@ -48,7 +49,12 @@ export default class Server {
 
   private static startSocketIO(){
     this.io.on('connection', (socket: Socket) => {
-      console.log('We have a new connection!!!');
+      console.log('We have a new connection!!!', socket.id);
+      socket.on("LOGIN", (data) => {
+        const {name} = data;
+        globalVars.sockets[name] = socket;
+        socket.emit("LOGIN", {requestFailed: false})
+      })
       this.socket = socket;
     });
   }

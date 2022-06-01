@@ -1,14 +1,17 @@
+import { Socket } from 'socket.io';
 import { DeliverySystem } from '../postoffice/postoffice.controller'
 import { DeliverySystemEnums } from '../postoffice/postoffice.enums'
 import { Mail } from '../types/mail.types'
 import { addElementToList, getElementsFromListAndRemoveList, getLengthOfList} from 'pkg-redis/redis.controller'
-import { REDIS_QUEUES } from '../queue/queue.const'
+import { REDIS_QUEUES } from '../queue/queue.const';
+import globalVars from './../globalVars';
+
 const { MAILBOX, POSTOFFICE } = REDIS_QUEUES;
+
 
 // type GetAndSetFn<T> = (composition: T | undefined) => T | undefined;
 export default class MailMan {
   public static async checkMailBoxAndDeliverToPostOffice() {
-    // To be implemented
     const length = await getLengthOfList(MAILBOX);
     if(length > 0){
       const incomingMailQueue: Mail[] = await getElementsFromListAndRemoveList(MAILBOX);
@@ -19,8 +22,11 @@ export default class MailMan {
   }
 
   public static async deliverMailToRecipient(mail: Mail) {
-    // TODO: Implement this part
     console.log("I will be triggered whenever the client should be notified");
+    const {recipient} = mail;
+    const {sockets} =  globalVars;
+    const recipientSocket: Socket = sockets[recipient];
+    recipientSocket.emit('INCOMING_MAIL', mail);
   }
 }
 

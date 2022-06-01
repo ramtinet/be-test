@@ -1,5 +1,4 @@
 import express from 'express';
-
 import Mailbox from './mailbox.controller';
 import { SendMail, GetMail } from '../types/mail.types'
 
@@ -16,7 +15,8 @@ const POST_mail: SendMail = (req, res, next) => {
 
 // /mail/:mailbox
 const GET_mail: GetMail = (req, res, next) => {
-  Mailbox.checkMails(req.params.mailbox)
+  const {mailbox} = req.params;
+  Mailbox.checkMails(mailbox)
     .then((data) => {
       res.send(data);
     })
