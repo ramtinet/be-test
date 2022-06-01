@@ -1,4 +1,10 @@
 import { object, string, boolean, assert } from 'superstruct'
 import { Mail } from '../types/mail.types'
 
-export const validateMail = (mail: Mail) => assert(mail, object({ message: string(), recipient: string(), prio: boolean() }));
+const MailStruct = object({ 
+    message: string(), 
+    recipient: string(), 
+    prio: boolean()
+});
+
+export const validateMail = (mail: Mail) => assert(mail, MailStruct);
