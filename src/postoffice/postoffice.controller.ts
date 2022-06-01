@@ -7,7 +7,7 @@ const { POSTOFFICE } = REDIS_QUEUES;
 
 export default class PostOffice {
   public static async distributeMailsFromPostOffice() {
-    const length = await getLengthOfList(POSTOFFICE);
+    const length: number = await getLengthOfList(POSTOFFICE);
     if(length > 0){
       const incomingPostOfficeQueue: Mail[] = await getElementsFromListAndRemoveList(POSTOFFICE);
       incomingPostOfficeQueue.forEach(mail => {

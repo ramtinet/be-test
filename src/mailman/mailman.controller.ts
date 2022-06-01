@@ -11,7 +11,7 @@ const { MAILBOX, POSTOFFICE } = REDIS_QUEUES;
 // type GetAndSetFn<T> = (composition: T | undefined) => T | undefined;
 export default class MailMan {
   public static async checkMailBoxAndDeliverToPostOffice() {
-    const length = await getLengthOfList(MAILBOX);
+    const length: number = await getLengthOfList(MAILBOX);
     if(length > 0){
       const incomingMailQueue: Mail[] = await getElementsFromListAndRemoveList(MAILBOX);
       incomingMailQueue.forEach(mail => {

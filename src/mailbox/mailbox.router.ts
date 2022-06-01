@@ -15,7 +15,7 @@ const POST_mail: SendMail = (req, res, next) => {
 
 // /mail/:mailbox
 const GET_mail: GetMail = (req, res, next) => {
-  const {mailbox} = req.params;
+  const mailbox: string = req.params.mailbox;
   Mailbox.checkMails(mailbox)
     .then((data) => {
       res.send(data);

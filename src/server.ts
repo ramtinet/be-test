@@ -6,18 +6,7 @@ import mailRouter from './mailbox/mailbox.router';
 import log from './services/logging.service';
 import cors from "cors";
 import loginSocketIOController from './login/login.socket.io.controller';
-
-const devOptions = {
-  corsOptions: {
-    origin: 'http://localhost:3000',
-    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) can't handle 204
-  },
-  socketOptions: {
-    cors: {
-      origin: "http://localhost:3000"
-    }
-  }
-}
+import devOptions from './devOptions';
 
 const PORT = config.get<{ port: number }>('app').port;
 
