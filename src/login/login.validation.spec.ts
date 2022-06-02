@@ -1,52 +1,42 @@
 import { LoginCredentials } from './../types/logincredentials.types';
 import { validateLoginCredentials } from './login.validation';
 
+const tryValidator = (validator) => {
+  let passed: boolean;
+  try{
+    validator();
+    passed = true;
+  } catch (e) {
+    passed = false;
+  }
+  return passed;
+}
+
 describe('login-validation', () => {
   it('it should not pass if name is an empty-string', async () => {
-    let passed, shouldNotPass: boolean;
     const loginCredentials: LoginCredentials = {
         name: "",
     };
-    try{
-      validateLoginCredentials(loginCredentials);
-      passed = true;
-    } catch (e) {
-      passed = false;
-    }
-    shouldNotPass = !passed;
-    expect(shouldNotPass).toEqual(true);
+    const passed = tryValidator(validateLoginCredentials.bind(loginCredentials))
+    expect(passed).toEqual(false);
   });
 
   it('it should not pass if name is a blank-string', async () => {
-    let passed, shouldNotPass: boolean;
     const loginCredentials: LoginCredentials = {
         name: "   ",
     };
-    try{
-      validateLoginCredentials(loginCredentials);
-      passed = true;
-    } catch (e) {
-      passed = false;
-    }
-    shouldNotPass = !passed;
-    expect(shouldNotPass).toEqual(true);
+    const passed = tryValidator(validateLoginCredentials.bind(loginCredentials))
+    expect(passed).toEqual(false);
   });
 
   it('it should not pass if name has length > 20', async () => {
-    let passed, shouldNotPass: boolean;
     const strSize21 = new Array(20 + 2).join('a');
     const loginCredentials: LoginCredentials = {
         name: strSize21,
     };
-    try{
-      validateLoginCredentials(loginCredentials);
-      passed = true;
-    } catch (e) {
-      passed = false;
-    }
-    shouldNotPass = !passed;
+    const passed = tryValidator(validateLoginCredentials.bind(loginCredentials))
     expect(strSize21.length).toBeGreaterThan(20);
-    expect(shouldNotPass).toEqual(true);
+    expect(passed).toEqual(false);
   });
 
 });
