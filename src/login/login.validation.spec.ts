@@ -30,12 +30,13 @@ describe('login-validation', () => {
   });
 
   it('it should not pass if name has length > 20', async () => {
-    const strSize21: string = new Array(20 + 2).join('a');
+    const length: number = 20;
+    const strSize21: string = new Array(length + 2).join('a');
     const loginCredentials: LoginCredentials = {
         name: strSize21,
     };
     const passed = tryValidator(validateLoginCredentials.bind(loginCredentials))
-    expect(strSize21.length).toBeGreaterThan(20);
+    expect(strSize21.length).toBeGreaterThan(length);
     expect(passed).toEqual(false);
   });
 
