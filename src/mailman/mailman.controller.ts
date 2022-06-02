@@ -1,10 +1,10 @@
-import { Socket } from 'socket.io';
 import { DeliverySystem } from '../postoffice/postoffice.controller'
 import { DeliverySystemEnums } from '../postoffice/postoffice.enums'
 import { Mail } from '../types/mail.types'
 import { addElementToList, getElementsFromListAndRemoveList, getLengthOfList} from 'pkg-redis/redis.controller'
 import { REDIS_QUEUES } from '../queue/queue.const';
 import mockRedis from '../mockRedis';
+import Server from './../server';
 
 const { MAILBOX, POSTOFFICE } = REDIS_QUEUES;
 
@@ -21,10 +21,11 @@ export default class MailMan {
   }
 
   public static async deliverMailToRecipient(mail: Mail) {
-    const {recipient} = mail;
-    const {sockets} =  mockRedis;
-    const recipientSocket: Socket = sockets[recipient];
-    recipientSocket.emit('INCOMING_MAIL', mail);
+    const {recipient: recipientName} = mail;
+    const {users} =  mockRedis;
+    const recipient = users[recipientName];
+    const socketId = recipient.socketId;
+    Server.socket.to(socketId).emit("INCOMING_MAIL", mail);
   }
 }
 

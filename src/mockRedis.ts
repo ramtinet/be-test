@@ -1,9 +1,10 @@
-import { Socket } from 'socket.io';
+type UserName = string;
+type SocketId = Record<string,  string>;
 interface MockRedis {
-    sockets: Record<string, Socket>,
+    users: Record<UserName,  SocketId>
 }
 const mockRedis: MockRedis = {
-    sockets: {}
+    users: {},
 };
 
 export default mockRedis;

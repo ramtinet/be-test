@@ -8,7 +8,7 @@ const loginSocketIOController = (client_socket: Socket, io: any) => {
         try {
             validateLoginCredentials(loginCredentials);
             const name: string = loginCredentials.name;
-            mockRedis.sockets[name] = client_socket;
+            mockRedis.users[name] = {socketId: client_socket.id};
             client_socket.emit("LOGIN", {})
         } catch (error: any) {
             callback({
