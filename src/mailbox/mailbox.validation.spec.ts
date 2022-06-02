@@ -34,7 +34,7 @@ describe('mailbox-validation', () => {
   });
 
   it('it should not pass if recipient has length > 20', async () => {
-    const strSize21 = new Array(20 + 2).join('a');
+    const strSize21: string = new Array(20 + 2).join('a');
     const mailInput: Mail = {
         message: "Hello world",
         recipient: strSize21,
@@ -46,7 +46,7 @@ describe('mailbox-validation', () => {
   });
 
   it('it should not pass if message has length > 300', async () => {
-    const strSize301 = new Array(300 + 2).join('a');
+    const strSize301: string = new Array(300 + 2).join('a');
     const mailInput: Mail = {
         message: strSize301,
         recipient: "Martin",

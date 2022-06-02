@@ -30,7 +30,7 @@ describe('login-validation', () => {
   });
 
   it('it should not pass if name has length > 20', async () => {
-    const strSize21 = new Array(20 + 2).join('a');
+    const strSize21: string = new Array(20 + 2).join('a');
     const loginCredentials: LoginCredentials = {
         name: strSize21,
     };
