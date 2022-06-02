@@ -1,14 +1,14 @@
 import { LoginCredentials } from './../types/logincredentials.types';
-import { object, string, nonempty, assert } from 'superstruct'
+import { object, string, nonempty, assert, size } from 'superstruct'
 
 const LoginCredentialsStruct = object({ 
-    name: nonempty(string()), 
+    name: size(nonempty(string()), 1, 20), 
 });
 
 const EmptyString = nonempty(string());
 
 export const validateLoginCredentials = (loginCredentials: LoginCredentials) => {
-    // Validate that the incoming name isn't empty (e.g; "")
+    // Validating the incoming credentials
     assert(loginCredentials, LoginCredentialsStruct);
     // Edge-case: Validate that the incoming name isn't blank (e.g; "       ")
     assert(loginCredentials.name.trim(), EmptyString);
