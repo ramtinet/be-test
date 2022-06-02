@@ -2,7 +2,7 @@ import { LoginCredentials } from './../types/logincredentials.types';
 import { validateLoginCredentials } from './login.validation';
 
 describe('login-validation', () => {
-  it('it should not pass for empty-string', async () => {
+  it('it should not pass if name is an empty-string', async () => {
     let passed, shouldNotPass: boolean;
     const loginCredentials: LoginCredentials = {
         name: "",
@@ -17,7 +17,7 @@ describe('login-validation', () => {
     expect(shouldNotPass).toEqual(true);
   });
 
-  it('it should not pass for blank-string', async () => {
+  it('it should not pass if name is a blank-string', async () => {
     let passed, shouldNotPass: boolean;
     const loginCredentials: LoginCredentials = {
         name: "   ",
@@ -32,7 +32,7 @@ describe('login-validation', () => {
     expect(shouldNotPass).toEqual(true);
   });
 
-  it('it should not pass for string.length > 20', async () => {
+  it('it should not pass if name has length > 20', async () => {
     let passed, shouldNotPass: boolean;
     const strSize21 = new Array(20 + 2).join('a');
     const loginCredentials: LoginCredentials = {
