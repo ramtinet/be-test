@@ -1,10 +1,11 @@
 import { LoginCredentials } from './../types/logincredentials.types';
 import { validateLoginCredentials } from './login.validation';
 
-const tryValidator = (validator) => {
+type LoginCredentialsValidator = (loginCredentials: LoginCredentials) => void;
+const tryLoginCredentialsValidator = (loginCredentials: LoginCredentials, validator: LoginCredentialsValidator) => {
   let passed: boolean;
   try{
-    validator();
+    validator(loginCredentials);
     passed = true;
   } catch (e) {
     passed = false;
@@ -17,7 +18,7 @@ describe('login-validation', () => {
     const loginCredentials: LoginCredentials = {
         name: "",
     };
-    const passed = tryValidator(validateLoginCredentials.bind(loginCredentials))
+    const passed = tryLoginCredentialsValidator(loginCredentials, validateLoginCredentials);
     expect(passed).toEqual(false);
   });
 
@@ -25,7 +26,7 @@ describe('login-validation', () => {
     const loginCredentials: LoginCredentials = {
         name: "   ",
     };
-    const passed = tryValidator(validateLoginCredentials.bind(loginCredentials))
+    const passed = tryLoginCredentialsValidator(loginCredentials, validateLoginCredentials);
     expect(passed).toEqual(false);
   });
 
@@ -35,7 +36,7 @@ describe('login-validation', () => {
     const loginCredentials: LoginCredentials = {
         name: strSize21,
     };
-    const passed = tryValidator(validateLoginCredentials.bind(loginCredentials))
+    const passed = tryLoginCredentialsValidator(loginCredentials, validateLoginCredentials);
     expect(strSize21.length).toBeGreaterThan(length);
     expect(passed).toEqual(false);
   });

@@ -1,10 +1,11 @@
 import { Mail } from '../types/mail.types';
 import { validateMail } from './mailbox.validation';
 
-const tryValidator = (validator) => {
+type MailValidator = (mail: Mail) => void;
+const tryMailValidator = (mail: Mail, validator: MailValidator) => {
   let passed: boolean;
   try{
-    validator();
+    validator(mail);
     passed = true;
   } catch (e) {
     passed = false;
@@ -19,7 +20,7 @@ describe('mailbox-validation', () => {
         recipient: "",
         prio: false
     };
-    const passed: boolean = tryValidator(validateMail.bind(mailInput));
+    const passed: boolean = tryMailValidator(mailInput, validateMail);
     expect(passed).toEqual(false);  
   });
 
@@ -29,7 +30,7 @@ describe('mailbox-validation', () => {
         recipient: "        ",
         prio: false
     };
-    const passed: boolean = tryValidator(validateMail.bind(mailInput));
+    const passed: boolean = tryMailValidator(mailInput, validateMail);
     expect(passed).toEqual(false);  
   });
 
@@ -41,7 +42,7 @@ describe('mailbox-validation', () => {
         recipient: strSize21,
         prio: false
     };
-    const passed: boolean = tryValidator(validateMail.bind(mailInput));
+    const passed: boolean = tryMailValidator(mailInput, validateMail);
     expect(strSize21.length).toBeGreaterThan(length);
     expect(passed).toEqual(false);  
   });
@@ -54,7 +55,7 @@ describe('mailbox-validation', () => {
         recipient: "Martin",
         prio: false
     };
-    const passed: boolean = tryValidator(validateMail.bind(mailInput));
+    const passed: boolean = tryMailValidator(mailInput, validateMail);
     expect(strSize301.length).toBeGreaterThan(length);
     expect(passed).toEqual(false);  
   });
