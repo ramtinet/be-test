@@ -53,7 +53,7 @@ describe('mailbox-validation', () => {
         prio: false
     };
     const passed: boolean = tryValidator(validateMail.bind(mailInput));
-    expect(strSize301.length).toBeGreaterThan(20);
+    expect(strSize301.length).toBeGreaterThan(300);
     expect(passed).toEqual(false);  
   });
 });
