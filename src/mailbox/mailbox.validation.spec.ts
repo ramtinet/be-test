@@ -42,7 +42,7 @@ describe('mailbox-validation', () => {
         prio: false
     };
     const passed: boolean = tryMailValidator(mailInput);
-    expect(strSize21.length).toBeGreaterThan(length);
+    expect(strSize21.length).toEqual(length+1);
     expect(passed).toEqual(false);  
   });
 
@@ -55,7 +55,7 @@ describe('mailbox-validation', () => {
         prio: false
     };
     const passed: boolean = tryMailValidator(mailInput);
-    expect(strSize301.length).toBeGreaterThan(length);
+    expect(strSize301.length).toEqual(length+1);
     expect(passed).toEqual(false);  
   });
 });

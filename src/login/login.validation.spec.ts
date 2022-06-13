@@ -36,7 +36,7 @@ describe('login-validation', () => {
         name: strSize21,
     };
     const passed = tryLoginCredentialsValidator(loginCredentials);
-    expect(strSize21.length).toBeGreaterThan(length);
+    expect(strSize21.length).toEqual(length+1);
     expect(passed).toEqual(false);
   });
 
